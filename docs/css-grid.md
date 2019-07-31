@@ -1,15 +1,15 @@
-?## ±×¸®µå ½Ã½ºÅÛ
+?## ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œ
 
-ºÎÆ®½ºÆ®·¦Àº ±â±â³ª ºäÆ÷Æ® Å©±â°¡ Áõ°¡ÇÔ¿¡ µû¶ó `12¿­`ÀÌ ÀûÀýÇÏ°Ô È®´ëµÇ´Â ¹ÝÀÀÇü, ¸ð¹ÙÀÏ ¿ì¼± À¯µ¿ ±×¸®µå ½Ã½ºÅÛÀÔ´Ï´Ù.
+ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì€ ê¸°ê¸°ë‚˜ ë·°í¬íŠ¸ í¬ê¸°ê°€ ì¦ê°€í•¨ì— ë”°ë¼ `12ì—´`ì´ ì ì ˆí•˜ê²Œ í™•ëŒ€ë˜ëŠ” ë°˜ì‘í˜•, ëª¨ë°”ì¼ ìš°ì„  ìœ ë™ ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œìž…ë‹ˆë‹¤.
 
-#### ¼Ò°³ Introduction
-  ±×¸®µå ½Ã½ºÅÛÀº ´ç½ÅÀÇ ÄÜÅÙÃ÷¸¦ º¸°üÇÒ Çà°ú ¿­ ½Ã¸®Áî¸¦ ÅëÇØ ÆäÀÌÁö ·¹ÀÌ¾Æ¿ôµé ¸¸µå´Âµ¥ »ç¿ëµÇ¾îÁý´Ï´Ù. 
+#### ì†Œê°œ Introduction
+  ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œì€ ë‹¹ì‹ ì˜ ì½˜í…ì¸ ë¥¼ ë³´ê´€í•  í–‰ê³¼ ì—´ ì‹œë¦¬ì¦ˆë¥¼ í†µí•´ íŽ˜ì´ì§€ ë ˆì´ì•„ì›ƒë“¤ ë§Œë“œëŠ”ë° ì‚¬ìš©ë˜ì–´ì§‘ë‹ˆë‹¤. 
 
-  * `Çà(row)`Àº ¹Ýµå½Ã ÀûÀýÇÑ Á¤·Ä°ú ÆÐµùÀ» À§ÇØ¼­ `.container (fixed-width)` ³ª `.container-fluid (full-width)` ¾È¿¡ À§Ä¡ÇØ¾ß ÇÕ´Ï´Ù.
-  * ¿­µéÀÇ ¼öÆò±×·ìÀ» ¸¸µå´Âµ¥ Çà(row)À» ÀÌ¿ëÇÏ¼¼¿ä.
-  * ÄÜÅÙÃ÷´Â ¿­¾È¿¡ À§Ä¡ÇØ¾ß ÇÕ´Ï´Ù. ±×¸®°í ¿­µé¸¸ÀÌ ÇàÀÇ ¹Ù·Î ¾Æ·¡¿¡ ¿Ã ¼ö ÀÖ½À´Ï´Ù.
-  * ¿­Àº `padding` À¸·Î »çÀÌ °£°ÝÀ» ¸¸µì´Ï´Ù. ÆÐµùÀº Çà ³»¿¡¼­ Ã¹¿­°ú ¸¶Áö¸·¿­À» À§ÇØ .row ³»¿¡ À½¼ö ¸¶ÁøÀ¸·Î offset µÇ¾î ÀÖ½À´Ï´Ù.
-  * À½¼ö ¸¶ÁøÀº ¾Æ·¡ÀÇ ¿¹Á¦µéÀÌ ³»¾î¾²±â°¡ µÇ¾î ÀÖ´Â ÀÌÀ¯ÀÔ´Ï´Ù. ±×°ÍÀº ±×¸®µå ¿­ ³»ÀÇ ÄÜÅÙÃ÷´Â ºñ±×¸®µå ÄÜÅÙÃ÷¿Í Á¤·ÄµÇ±â À§ÇÔÀÔ´Ï´Ù.
+  * `í–‰(row)`ì€ ë°˜ë“œì‹œ ì ì ˆí•œ ì •ë ¬ê³¼ íŒ¨ë”©ì„ ìœ„í•´ì„œ `.container (fixed-width)` ë‚˜ `.container-fluid (full-width)` ì•ˆì— ìœ„ì¹˜í•´ì•¼ í•©ë‹ˆë‹¤.
+  * ì—´ë“¤ì˜ ìˆ˜í‰ê·¸ë£¹ì„ ë§Œë“œëŠ”ë° í–‰(row)ì„ ì´ìš©í•˜ì„¸ìš”.
+  * ì½˜í…ì¸ ëŠ” ì—´ì•ˆì— ìœ„ì¹˜í•´ì•¼ í•©ë‹ˆë‹¤. ê·¸ë¦¬ê³  ì—´ë“¤ë§Œì´ í–‰ì˜ ë°”ë¡œ ì•„ëž˜ì— ì˜¬ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+  * ì—´ì€ `padding` ìœ¼ë¡œ ì‚¬ì´ ê°„ê²©ì„ ë§Œë“­ë‹ˆë‹¤. íŒ¨ë”©ì€ í–‰ ë‚´ì—ì„œ ì²«ì—´ê³¼ ë§ˆì§€ë§‰ì—´ì„ ìœ„í•´ .row ë‚´ì— ìŒìˆ˜ ë§ˆì§„ìœ¼ë¡œ offset ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.
+  * ìŒìˆ˜ ë§ˆì§„ì€ ì•„ëž˜ì˜ ì˜ˆì œë“¤ì´ ë‚´ì–´ì“°ê¸°ê°€ ë˜ì–´ ìžˆëŠ” ì´ìœ ìž…ë‹ˆë‹¤. ê·¸ê²ƒì€ ê·¸ë¦¬ë“œ ì—´ ë‚´ì˜ ì½˜í…ì¸ ëŠ” ë¹„ê·¸ë¦¬ë“œ ì½˜í…ì¸ ì™€ ì •ë ¬ë˜ê¸° ìœ„í•¨ìž…ë‹ˆë‹¤.
 ```
   .row {
   margin-right: -15px;
@@ -17,25 +17,25 @@
 }
 ```
 
-* `.row ` : `.container` ¶Ç´Â `.container-fluid` ¾È¿¡ `.row`·Î ÇàÀ» ¸¸µì´Ï´Ù.  
-* `.col-*-*` : `.row` ¾È¿¡ `.col-*-*`·Î ¿­À» ¸¸µì´Ï´Ù
+* `.row ` : `.container` ë˜ëŠ” `.container-fluid` ì•ˆì— `.row`ë¡œ í–‰ì„ ë§Œë“­ë‹ˆë‹¤.  
+* `.col-*-*` : `.row` ì•ˆì— `.col-*-*`ë¡œ ì—´ì„ ë§Œë“­ë‹ˆë‹¤
 
 
-#### ¹Ìµð¾î Äõ¸® Media queries
+#### ë¯¸ë””ì–´ ì¿¼ë¦¬ Media queries
 
-±×¸®µå ½Ã½ºÅÛ¿¡¼­ ÁÖ¿ä ºÐ±âÁ¡À» ¸¸µé±â À§ÇØ ´ÙÀ½ÀÇ ¹Ìµð¾î Äõ¸®µéÀ» »ç¿ëÇÕ´Ï´Ù.
+ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œì—ì„œ ì£¼ìš” ë¶„ê¸°ì ì„ ë§Œë“¤ê¸° ìœ„í•´ ë‹¤ìŒì˜ ë¯¸ë””ì–´ ì¿¼ë¦¬ë“¤ì„ ì‚¬ìš©í•©ë‹ˆë‹¤.
 
 ```
-/* ¸Å¿ì ÀÛÀº ±â±âµé (¸ð¹ÙÀÏÆù, 768px º¸´Ù ÀÛÀº) */
-/* ºÎÆ®½ºÆ®·¦¿¡¼­ ÀÌ°ÍÀº ±âº»ÀÌ¹Ç·Î ¹Ìµð¾îÄõ¸®°¡ ¾ø½À´Ï´Ù. */
+/* ë§¤ìš° ìž‘ì€ ê¸°ê¸°ë“¤ (ëª¨ë°”ì¼í°, 768px ë³´ë‹¤ ìž‘ì€) */
+/* ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì—ì„œ ì´ê²ƒì€ ê¸°ë³¸ì´ë¯€ë¡œ ë¯¸ë””ì–´ì¿¼ë¦¬ê°€ ì—†ìŠµë‹ˆë‹¤. */
  
-/* ÀÛÀº ±â±âµé (ÅÂºí¸´, 768px ÀÌ»ó) */
+/* ìž‘ì€ ê¸°ê¸°ë“¤ (íƒœë¸”ë¦¿, 768px ì´ìƒ) */
 @media (min-width: @screen-sm-min) { ... }
  
-/* Áß°£ ±â±âµé (µ¥½ºÅ©Å¾, 992px ÀÌ»ó) */
+/* ì¤‘ê°„ ê¸°ê¸°ë“¤ (ë°ìŠ¤í¬íƒ‘, 992px ì´ìƒ) */
 @media (min-width: @screen-md-min) { ... }
  
-/* Å« ±â±âµé (Å« µ¥½ºÅ©Å¾, 1200px ÀÌ»ó) */
+/* í° ê¸°ê¸°ë“¤ (í° ë°ìŠ¤í¬íƒ‘, 1200px ì´ìƒ) */
 @media (min-width: @screen-lg-min) { ... }
 ```
 
@@ -46,74 +46,74 @@
       <tr>
         <th></th>
         <th>
-          ¸Å¿ì ÀÛÀº ±â±â
-          <small>¸ð¹ÙÀÏÆù (&lt;768px)</small>
+          ë§¤ìš° ìž‘ì€ ê¸°ê¸°
+          <small>ëª¨ë°”ì¼í° (&lt;768px)</small>
         </th>
         <th>
-          ÀÛÀº ±â±â
-          <small>ÅÂºí¸´ (¡Ã768px)</small>
+          ìž‘ì€ ê¸°ê¸°
+          <small>íƒœë¸”ë¦¿ (â‰¥768px)</small>
         </th>
         <th>
-          Áß°£ ±â±â
-          <small>µ¥½ºÅ©Å¾ (¡Ã992px)</small>
+          ì¤‘ê°„ ê¸°ê¸°
+          <small>ë°ìŠ¤í¬íƒ‘ (â‰¥992px)</small>
         </th>
         <th>
-          Å« ±â±â
-          <small>µ¥½ºÅ©Å¾ (¡Ã1200px)</small>
+          í° ê¸°ê¸°
+          <small>ë°ìŠ¤í¬íƒ‘ (â‰¥1200px)</small>
         </th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th class="text-nowrap" scope="row">±×¸®µå Àû¿ë</th>
-        <td>Ç×»ó <!-- TODO: Horizontal at all times --></td>
-        <td colspan="3">ºÐ±âÁ¡º¸´Ù Å©¸é Àû¿ë <!-- TODO: Collapsed to start, horizontal above breakpoints --></td>
+        <th class="text-nowrap" scope="row">ê·¸ë¦¬ë“œ ì ìš©</th>
+        <td>í•­ìƒ <!-- TODO: Horizontal at all times --></td>
+        <td colspan="3">ë¶„ê¸°ì ë³´ë‹¤ í¬ë©´ ì ìš© <!-- TODO: Collapsed to start, horizontal above breakpoints --></td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">ÄÜÅ×ÀÌ³Ê ³Êºñ</th>
-        <td>¾øÀ½ (auto)</td>
+        <th class="text-nowrap" scope="row">ì½˜í…Œì´ë„ˆ ë„ˆë¹„</th>
+        <td>ì—†ìŒ (auto)</td>
         <td>750px</td>
         <td>970px</td>
         <td>1170px</td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">Å¬·¡½º Á¢µÎ»ç</th>
+        <th class="text-nowrap" scope="row">í´ëž˜ìŠ¤ ì ‘ë‘ì‚¬</th>
         <td><code>.col-xs-</code></td>
         <td><code>.col-sm-</code></td>
         <td><code>.col-md-</code></td>
         <td><code>.col-lg-</code></td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">ÄÃ·³ ¼ö</th>
+        <th class="text-nowrap" scope="row">ì»¬ëŸ¼ ìˆ˜</th>
         <td colspan="4">12</td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">ÄÃ·³ ³Êºñ</th>
+        <th class="text-nowrap" scope="row">ì»¬ëŸ¼ ë„ˆë¹„</th>
         <td class="text-muted">Auto</td>
         <td>~62px</td>
         <td>~81px</td>
         <td>~97px</td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">»çÀÌ ³Êºñ</th>
-        <td colspan="4">30px (ÄÃ·³ÀÇ ¾çÂÊ¿¡ 15px ¾¿)</td>
+        <th class="text-nowrap" scope="row">ì‚¬ì´ ë„ˆë¹„</th>
+        <td colspan="4">30px (ì»¬ëŸ¼ì˜ ì–‘ìª½ì— 15px ì”©)</td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">ÁßÃ¸</th>
-        <td colspan="4">¿¹</td>
+        <th class="text-nowrap" scope="row">ì¤‘ì²©</th>
+        <td colspan="4">ì˜ˆ</td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">¿ÀÇÁ¼Â</th>
-        <td colspan="4">¿¹</td>
+        <th class="text-nowrap" scope="row">ì˜¤í”„ì…‹</th>
+        <td colspan="4">ì˜ˆ</td>
       </tr>
       <tr>
-        <th class="text-nowrap" scope="row">ÄÃ·³ ¼ø¼­Á¤ÇÏ±â</th>
-        <td colspan="4">¿¹</td>
+        <th class="text-nowrap" scope="row">ì»¬ëŸ¼ ìˆœì„œì •í•˜ê¸°</th>
+        <td colspan="4">ì˜ˆ</td>
       </tr>
     </tbody>
   </table>
 
-±â±âµé¿¡ CSS ¸¦ Á¼°Ô Àû¿ëÇÏ±â À§ÇØ ¹Ìµð¾îÄõ¸®¿¡ max-width ¸¦ Æ÷ÇÔÇÏ¿© ºÎ¿¬ÇÕ´Ï´Ù.
+ê¸°ê¸°ë“¤ì— CSS ë¥¼ ì¢ê²Œ ì ìš©í•˜ê¸° ìœ„í•´ ë¯¸ë””ì–´ì¿¼ë¦¬ì— max-width ë¥¼ í¬í•¨í•˜ì—¬ ë¶€ì—°í•©ë‹ˆë‹¤.
 
 ```
 @media (max-width: @screen-xs-max) { ... }
@@ -122,7 +122,7 @@
 @media (min-width: @screen-lg-min) { ... }
 ```
 
-#### ±×¸®µå ¿É¼Ç
+#### ê·¸ë¦¬ë“œ ì˜µì…˜
 
   <div class="table-responsive">
       <table class="table table-bordered table-striped responsive-utilities">
@@ -130,81 +130,81 @@
           <tr>
             <th></th>
             <th>
-              ¸Å¿ì ÀÛÀº ±â±âµé
-              <small>¸ð¹ÙÀÏÆù (&lt;768px)</small>
+              ë§¤ìš° ìž‘ì€ ê¸°ê¸°ë“¤
+              <small>ëª¨ë°”ì¼í° (&lt;768px)</small>
             </th>
             <th>
-              ÀÛÀº ±â±âµé
-              <small>ÅÂºí¸´ (¡Ã768px)</small>
+              ìž‘ì€ ê¸°ê¸°ë“¤
+              <small>íƒœë¸”ë¦¿ (â‰¥768px)</small>
             </th>
             <th>
-              Áß°£ ±â±âµé
-              <small>µ¥½ºÅ©Å¾ (¡Ã992px)</small>
+              ì¤‘ê°„ ê¸°ê¸°ë“¤
+              <small>ë°ìŠ¤í¬íƒ‘ (â‰¥992px)</small>
             </th>
             <th>
-              Å« ±â±âµé
-              <small>µ¥½ºÅ©Å¾ (¡Ã1200px)</small>
+              í° ê¸°ê¸°ë“¤
+              <small>ë°ìŠ¤í¬íƒ‘ (â‰¥1200px)</small>
             </th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th><code>.visible-xs</code></th>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
           </tr>
           <tr>
             <th><code>.visible-sm</code></th>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
           </tr>
           <tr>
             <th><code>.visible-md</code></th>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
           </tr>
           <tr>
             <th><code>.visible-lg</code></th>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-visible">º¸ÀÓ</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-visible">ë³´ìž„</td>
           </tr>
         </tbody>
         <tbody>
           <tr>
             <th><code>.hidden-xs</code></th>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-visible">º¸ÀÓ</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-visible">ë³´ìž„</td>
           </tr>
           <tr>
             <th><code>.hidden-sm</code></th>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-visible">º¸ÀÓ</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-visible">ë³´ìž„</td>
           </tr>
           <tr>
             <th><code>.hidden-md</code></th>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
-            <td class="is-visible">º¸ÀÓ</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
+            <td class="is-visible">ë³´ìž„</td>
           </tr>
           <tr>
             <th><code>.hidden-lg</code></th>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-visible">º¸ÀÓ</td>
-            <td class="is-hidden">¼û°ÜÁü</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-visible">ë³´ìž„</td>
+            <td class="is-hidden">ìˆ¨ê²¨ì§</td>
           </tr>
         </tbody>
       </table>
@@ -212,8 +212,8 @@
   
 
 
-#### ¿¹Á¦ 1
-±×¸®µå Å¬·¡½ºÀÎ `.col-md-*` ½Ì±Û ¼¼Æ®¸¦ »ç¿ëÇÏ¿©, ´ç½ÅÀº µ¥½ºÅ©Å¾(Áß°£) ±â±â¿¡¼­ ¼öÆòÀ¸·Î µÇ±âÀü±îÁö, ¸ð¹ÙÀÏ ±â±â¿Í ÅÂºí¸´ ±â±â(¸Å¿ì ÀÛÀ½¿¡¼­ ÀÛÀ½±îÁö)¿¡¼­ ½×ÀÌ±â ½ÃÀÛÇÏ´Â ±âº» ±×¸®µå ½Ã½ºÅÛÀ» ¸¸µé ¼ö ÀÖ´Ù. `.row` ¾È¿¡ ±×¸®µå ÄÃ·³À» ³õÀ¸¼¼¿ä.
+#### ì˜ˆì œ 1
+ê·¸ë¦¬ë“œ í´ëž˜ìŠ¤ì¸ `.col-md-*` ì‹±ê¸€ ì„¸íŠ¸ë¥¼ ì‚¬ìš©í•˜ì—¬, ë‹¹ì‹ ì€ ë°ìŠ¤í¬íƒ‘(ì¤‘ê°„) ê¸°ê¸°ì—ì„œ ìˆ˜í‰ìœ¼ë¡œ ë˜ê¸°ì „ê¹Œì§€, ëª¨ë°”ì¼ ê¸°ê¸°ì™€ íƒœë¸”ë¦¿ ê¸°ê¸°(ë§¤ìš° ìž‘ìŒì—ì„œ ìž‘ìŒê¹Œì§€)ì—ì„œ ìŒ“ì´ê¸° ì‹œìž‘í•˜ëŠ” ê¸°ë³¸ ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œì„ ë§Œë“¤ ìˆ˜ ìžˆë‹¤. `.row` ì•ˆì— ê·¸ë¦¬ë“œ ì»¬ëŸ¼ì„ ë†“ìœ¼ì„¸ìš”.
 
 <div>
   <p data-height="268" data-theme-id="0" data-slug-hash="jbQjMo" data-default-tab="result" data-user="hklim82" class='codepen'>See the Pen <a href='http://codepen.io/hklim82/pen/jbQjMo/'>bootstrap grid1</a> by kero (<a href='http://codepen.io/hklim82'>@hklim82</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -226,26 +226,21 @@
 
 
 
-* **¹ÝÀÀÇü ÄÃ·³ ÃÊ±âÈ­**  
-  »ç¿ë°¡´ÉÇÑ 4µî±ÞÀÇ ±×¸®µåµé°ú Æ¯Á¤ ºÐ±âÁ¡¿¡¼­, ÄÃ·³µéÀÌ ÇÏ³ª°¡ ´Ù¸¥ ÄÃ·³º¸´Ù ±ä °æ¿ì ¸íÈ®ÇÏ°Ô Å¬¸®¾î µÇÁö ¾ÊÀ» ¼ö ÀÖ´Ù. ±×°É °íÄ¡±â À§ÇØ¼­´Â, `.clearfix `¿Í ¿ì¸®ÀÇ ¹ÝÀÀÇü À¯Æ¿¸®Æ¼ Å¬·¡½ºµéÀÇ Á¶ÇÕÀ» »ç¿ëÇÏ¸é µË´Ï´Ù.
+* **ë°˜ì‘í˜• ì»¬ëŸ¼ ì´ˆê¸°í™”**  
+  ì‚¬ìš©ê°€ëŠ¥í•œ 4ë“±ê¸‰ì˜ ê·¸ë¦¬ë“œë“¤ê³¼ íŠ¹ì • ë¶„ê¸°ì ì—ì„œ, ì»¬ëŸ¼ë“¤ì´ í•˜ë‚˜ê°€ ë‹¤ë¥¸ ì»¬ëŸ¼ë³´ë‹¤ ê¸´ ê²½ìš° ëª…í™•í•˜ê²Œ í´ë¦¬ì–´ ë˜ì§€ ì•Šì„ ìˆ˜ ìžˆë‹¤. ê·¸ê±¸ ê³ ì¹˜ê¸° ìœ„í•´ì„œëŠ”, `.clearfix `ì™€ ìš°ë¦¬ì˜ ë°˜ì‘í˜• ìœ í‹¸ë¦¬í‹° í´ëž˜ìŠ¤ë“¤ì˜ ì¡°í•©ì„ ì‚¬ìš©í•˜ë©´ ë©ë‹ˆë‹¤.
 *  **`col-* -offset-*`**  
-  .col-md-offset-* Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ÄÃ·³À» ¿ìÃøÀ¸·Î ¿Å±â¼¼¿ä. ÀÌ Å¬·¡½ºµéÀº * ÄÃ·³¸¸Å­ ÇÑ ÄÃ·³ÀÇ ÁÂÃø¸¶ÁøÀ» Áõ°¡ÇÏ°Ô ÇÕ´Ï´Ù. ¿¹¸¦ µé¾î, .col-md-offset-4 ´Â .col-md-4 À» 4ÄÃ·³¸¸Å­ ÀÌµ¿½ÃÅµ´Ï´Ù.
-* **ÄÃ·³ ÁßÃ¸ÇÏ±â**  
-  ±âº»±×¸®µå·Î ÄÜÅÙÃ÷¸¦ ÁßÃ¸ÇÏ·Á¸é, Á¸ÀçÇÏ´Â .col-md-* ÄÃ·³ ³»¿¡ »õ·Î¿î .row ¿Í .col-md-* ÄÃ·³ ¼¼Æ®¸¦ Ãß°¡ÇÏ¼¼¿ä. ÁßÃ¸µÈ ÇàÀº ÇÕÃÄ¼­ 12 °¡ µÇ´Â ÇÏ³ªÀÇ ÄÃ·³ ¼¼Æ®°¡ µË´Ï´Ù.  
-* **`col-push¿Í col-pull `**  
-  .col-md-push-* ¿Í.col-md-pull-* ¼ö½ÄÅ¬·¡½ºµé·Î ±×¸®µå ÄÃ·³µéÀÇ ¼ø¼­¸¦ ½±°Ô º¯°æÇÒ¼ö ÀÖ½À´Ï´Ù.
-#### ¿¹Á¦ 2
+  .col-md-offset-* í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ì»¬ëŸ¼ì„ ìš°ì¸¡ìœ¼ë¡œ ì˜®ê¸°ì„¸ìš”. ì´ í´ëž˜ìŠ¤ë“¤ì€ * ì»¬ëŸ¼ë§Œí¼ í•œ ì»¬ëŸ¼ì˜ ì¢Œì¸¡ë§ˆì§„ì„ ì¦ê°€í•˜ê²Œ í•©ë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´, .col-md-offset-4 ëŠ” .col-md-4 ì„ 4ì»¬ëŸ¼ë§Œí¼ ì´ë™ì‹œí‚µë‹ˆë‹¤.
+* **ì»¬ëŸ¼ ì¤‘ì²©í•˜ê¸°**  
+  ê¸°ë³¸ê·¸ë¦¬ë“œë¡œ ì½˜í…ì¸ ë¥¼ ì¤‘ì²©í•˜ë ¤ë©´, ì¡´ìž¬í•˜ëŠ” .col-md-* ì»¬ëŸ¼ ë‚´ì— ìƒˆë¡œìš´ .row ì™€ .col-md-* ì»¬ëŸ¼ ì„¸íŠ¸ë¥¼ ì¶”ê°€í•˜ì„¸ìš”. ì¤‘ì²©ëœ í–‰ì€ í•©ì³ì„œ 12 ê°€ ë˜ëŠ” í•˜ë‚˜ì˜ ì»¬ëŸ¼ ì„¸íŠ¸ê°€ ë©ë‹ˆë‹¤.  
+* **`col-pushì™€ col-pull `**  
+  .col-md-push-* ì™€.col-md-pull-* ìˆ˜ì‹í´ëž˜ìŠ¤ë“¤ë¡œ ê·¸ë¦¬ë“œ ì»¬ëŸ¼ë“¤ì˜ ìˆœì„œë¥¼ ì‰½ê²Œ ë³€ê²½í• ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-<div>
-  <p data-height="268" data-theme-id="0" data-slug-hash="JYeQKE" data-default-tab="result" data-user="hklim82" class='codepen'>See the Pen <a href='http://codepen.io/hklim82/pen/JYeQKE/'>bootstrap grid2</a> by kero (<a href='http://codepen.io/hklim82'>@hklim82</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</div>
 
 ***
 
 
 
 
-[ÀÌÀüÆäÀÌÁö- ºÎÆ®½ºÆ®·¦CSS_ÄÁÅ×ÀÌ³Ê](css-container.md)  
-[´ÙÀ½ÆäÀÌÁö- component-list-group](component-list-group.md)
+[ì´ì „íŽ˜ì´ì§€- ë¶€íŠ¸ìŠ¤íŠ¸ëž©CSS_ì»¨í…Œì´ë„ˆ](css-container.md)  
+[ë‹¤ìŒíŽ˜ì´ì§€- component-list-group](component-list-group.md)
 
