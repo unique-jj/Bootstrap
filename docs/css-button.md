@@ -2,10 +2,9 @@
 
 
 
-### ¹öÆ° ÅÂ±×
-`<a>`, `<button>`, `<input>` ¿ä¼Ò¿¡ ¹öÆ° Å¬·¡½º¸¦ »ç¿ëÇÏ¼¼¿ä.
+### ë²„íŠ¼ íƒœê·¸
+`<a>`, `<button>`, `<input>` ìš”ì†Œì— ë²„íŠ¼ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/JGNvWM?editors=100)
 
 ```html
 <a class="btn btn-default" href="#" role="button">Link</a>
@@ -15,25 +14,24 @@
 ```
 
 ```
-¹®¸Æ Æ¯Á¤ »ç¿ë
-¹öÆ° Å¬·¡½º´Â <a>, <button>¿¡ »ç¿ëµÇ¾îÁöÁö¸¸, ¿ÀÁ÷ <button>¸¸ÀÌ ³×ºñ°ÔÀÌ¼Ç°ú ³×ºñ°ÔÀÌ¼Ç¹Ù ÄÞÆ÷³ÍÆ®¿¡¼­ Áö¿øµË´Ï´Ù.
+ë¬¸ë§¥ íŠ¹ì • ì‚¬ìš©
+ë²„íŠ¼ í´ëž˜ìŠ¤ëŠ” <a>, <button>ì— ì‚¬ìš©ë˜ì–´ì§€ì§€ë§Œ, ì˜¤ì§ <button>ë§Œì´ ë„¤ë¹„ê²Œì´ì…˜ê³¼ ë„¤ë¹„ê²Œì´ì…˜ë°” ì½¤í¬ë„ŒíŠ¸ì—ì„œ ì§€ì›ë©ë‹ˆë‹¤.
 ```
 ```
-¹öÆ°Ã³·³ ÀÛµ¿ÇÏ´Â ¸µÅ©
-¸¸¾à <a> ¿ä¼Ò°¡ ¹öÆ°Ã³·³ »ç¿ëµÈ´Ù¸é, ±×µéÀº ÀûÀýÇÑ role="button"µµ ÁÖ¾îÁ®¾ß ÇÕ´Ï´Ù.
+ë²„íŠ¼ì²˜ëŸ¼ ìž‘ë™í•˜ëŠ” ë§í¬
+ë§Œì•½ <a> ìš”ì†Œê°€ ë²„íŠ¼ì²˜ëŸ¼ ì‚¬ìš©ëœë‹¤ë©´, ê·¸ë“¤ì€ ì ì ˆí•œ role="button"ë„ ì£¼ì–´ì ¸ì•¼ í•©ë‹ˆë‹¤.
 ```
 ```
-Å©·Î½ººê¶ó¿ìÂ¡ ·À´õ¸µ
-Å©·Î½ººê¶ó¿ìÀú ·»´õ¸µ¿¡ ¸ÂÃãÀ» È®½ÇÈ÷ ÇÏ±âÀ§ÇØ °¡´ÉÇÑ <button>¿¡ »ç¿ëÇÏ´Â °ÍÀ» °­·ÂÈ÷ ÃßÃµÇÕ´Ï´Ù.
-±× ¿Ü¿¡ ÆÄÀÌ¾îÆø½º¿¡´Â ¹ö±×°¡ ÀÖ½À´Ï´Ù.
-±×°ÍÀº <input>ÀÇ line-heightÀÇ ¼³Á¤À» ¸·±â ¶§¹®¿¡ ÆÄÀÌ¾îÆø½ºÀÇ ´Ù¸¥ ¹öÆ°ÀÇ ³ôÀÌ¿Í Á¤È®ÇÏ°Ô ¸ÂÃßÁö´Â ¸øÇÕ´Ï´Ù.
+í¬ë¡œìŠ¤ë¸Œë¼ìš°ì§• ë ë”ë§
+í¬ë¡œìŠ¤ë¸Œë¼ìš°ì € ë Œë”ë§ì— ë§žì¶¤ì„ í™•ì‹¤ížˆ í•˜ê¸°ìœ„í•´ ê°€ëŠ¥í•œ <button>ì— ì‚¬ìš©í•˜ëŠ” ê²ƒì„ ê°•ë ¥ížˆ ì¶”ì²œí•©ë‹ˆë‹¤.
+ê·¸ ì™¸ì— íŒŒì´ì–´í­ìŠ¤ì—ëŠ” ë²„ê·¸ê°€ ìžˆìŠµë‹ˆë‹¤.
+ê·¸ê²ƒì€ <input>ì˜ line-heightì˜ ì„¤ì •ì„ ë§‰ê¸° ë•Œë¬¸ì— íŒŒì´ì–´í­ìŠ¤ì˜ ë‹¤ë¥¸ ë²„íŠ¼ì˜ ë†’ì´ì™€ ì •í™•í•˜ê²Œ ë§žì¶”ì§€ëŠ” ëª»í•©ë‹ˆë‹¤.
 ```
 
-### ¿É¼Ç
+### ì˜µì…˜
 
-°£ÆíÇÏ°Ô ½ºÅ¸ÀÏ ¹öÆ°À» ¸¸µé±â À§ÇØ »ç¿ë°¡´ÉÇÑ ¹öÆ° Å¬·¡½º Áß ÇÏ³ª¸¦ »ç¿ëÇÏ¼¼¿ä.
+ê°„íŽ¸í•˜ê²Œ ìŠ¤íƒ€ì¼ ë²„íŠ¼ì„ ë§Œë“¤ê¸° ìœ„í•´ ì‚¬ìš©ê°€ëŠ¥í•œ ë²„íŠ¼ í´ëž˜ìŠ¤ ì¤‘ í•˜ë‚˜ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/yebjbJ?editors=100)
 
 ```html
 <!-- Standard button -->
@@ -59,17 +57,16 @@
 ```
 
 ```
-º¸Á¶ °øÇÐ¿¡ ÀÇ¹Ì¸¦ Àü´ÞÇÏ´Â °Í
-¹öÆ°¿¡ ÀÇ¹Ì¸¦ Ãß°¡ÇÏ±â À§ÇØ »öÀ» »ç¿ëÇÏ´Â °ÍÀº ½Ã°¢ÀûÀÎ Ç¥½Ã¿¡¸¸ Á¦°øÀÌ µË´Ï´Ù.
-»ö¿¡ÀÇÇÑ Á¤º¸¸¦ ÄÜÅÙÃ÷ ÀÚÃ¼¿¡µµ ³ªÅ¸³¾ ¼ö ÀÖµµ·Ï ÇÏ¼¼¿ä.
-±×¸®°í .sr-only·Î ÅØ½ºÆ®¸¦ ¼û±æ¼öµµ ÀÖ½À´Ï´Ù.
+ë³´ì¡° ê³µí•™ì— ì˜ë¯¸ë¥¼ ì „ë‹¬í•˜ëŠ” ê²ƒ
+ë²„íŠ¼ì— ì˜ë¯¸ë¥¼ ì¶”ê°€í•˜ê¸° ìœ„í•´ ìƒ‰ì„ ì‚¬ìš©í•˜ëŠ” ê²ƒì€ ì‹œê°ì ì¸ í‘œì‹œì—ë§Œ ì œê³µì´ ë©ë‹ˆë‹¤.
+ìƒ‰ì—ì˜í•œ ì •ë³´ë¥¼ ì½˜í…ì¸  ìžì²´ì—ë„ ë‚˜íƒ€ë‚¼ ìˆ˜ ìžˆë„ë¡ í•˜ì„¸ìš”.
+ê·¸ë¦¬ê³  .sr-onlyë¡œ í…ìŠ¤íŠ¸ë¥¼ ìˆ¨ê¸¸ìˆ˜ë„ ìžˆìŠµë‹ˆë‹¤.
 ```
 
-### Å©±â
+### í¬ê¸°
 
-¹öÆ°À» Å©°Å³ª ÀÛ°Ô ÇÏ·Á¸é, `.btn-lg`, `btn-sm`, `.btn-xs`¸¦ Ãß°¡ÇÏ¼¼¿ä.
+ë²„íŠ¼ì„ í¬ê±°ë‚˜ ìž‘ê²Œ í•˜ë ¤ë©´, `.btn-lg`, `btn-sm`, `.btn-xs`ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/VebxbB?editors=100)
 
 ```html
 <p>
@@ -90,7 +87,7 @@
 </p>
 ```
 
-`.btn-block`À» ´õÇÏ´Â °ÍÀ¸·Î ºí·Ï·¹º§ ¹öÆ°À» ºÎ¸ð ¿ä¼Ò ¸¸Å­ ²Ë Âù ³Êºñ·Î ¸¸µì´Ï´Ù.
+`.btn-block`ì„ ë”í•˜ëŠ” ê²ƒìœ¼ë¡œ ë¸”ë¡ë ˆë²¨ ë²„íŠ¼ì„ ë¶€ëª¨ ìš”ì†Œ ë§Œí¼ ê½‰ ì°¬ ë„ˆë¹„ë¡œ ë§Œë“­ë‹ˆë‹¤.
 
 ```html
 <div class="well center-block" style="max-width: 400px;">
@@ -99,44 +96,42 @@
 </div>
 ```
 
-### È°¼º »óÅÂ
+### í™œì„± ìƒíƒœ
 
-¹öÆ°Àº È°¼ºÈ­ µÇ¾úÀ» ¶§ ´­·¯Áø °ÍÃ³·³ º¸¿©Áú °ÍÀÔ´Ï´Ù. `<button>` ¿ä¼Ò¸¦ À§ÇØ¼­ `:active` ¸¦ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.  
-ÇÏÁö¸¸ ÇÁ·Î±×·¥ÀûÀ¸·Î È°¼ºÈ­µÈ »óÅÂ¸¦ Àû¿ëÇÒ ÇÊ¿ä°¡ ÀÖÀ» ¶§ `.active`¸¦ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.  
-(±×¸®°í aria-pressed="ture" ¼Ó¼ºµµ Æ÷ÇÔÇÕ´Ï´Ù.)
+ë²„íŠ¼ì€ í™œì„±í™” ë˜ì—ˆì„ ë•Œ ëˆŒëŸ¬ì§„ ê²ƒì²˜ëŸ¼ ë³´ì—¬ì§ˆ ê²ƒìž…ë‹ˆë‹¤. `<button>` ìš”ì†Œë¥¼ ìœ„í•´ì„œ `:active` ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+í•˜ì§€ë§Œ í”„ë¡œê·¸ëž¨ì ìœ¼ë¡œ í™œì„±í™”ëœ ìƒíƒœë¥¼ ì ìš©í•  í•„ìš”ê°€ ìžˆì„ ë•Œ `.active`ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+(ê·¸ë¦¬ê³  aria-pressed="ture" ì†ì„±ë„ í¬í•¨í•©ë‹ˆë‹¤.)
 
-##### ¹öÆ° ¿ä¼Ò
+##### ë²„íŠ¼ ìš”ì†Œ
 
-`:active`¸¦ ´õÇÒ ÇÊ¿ä´Â ¾ø½À´Ï´Ù¸¸, ¸¸¾à °­Á¦·Î °°Àº ¸ð½ÀÀÌ ÇÊ¿äÇÏ´Ù¸é, `.active`¸¦ Ãß°¡ÇÏ¼¼¿ä.
+`:active`ë¥¼ ë”í•  í•„ìš”ëŠ” ì—†ìŠµë‹ˆë‹¤ë§Œ, ë§Œì•½ ê°•ì œë¡œ ê°™ì€ ëª¨ìŠµì´ í•„ìš”í•˜ë‹¤ë©´, `.active`ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/qbmYjx?editors=100)
-(ÀÌ ¿¹Á¦´Â ¾Æ·¡ÀÇ ¾ÞÄ¿ ¿ä¼Ò ÄÚµåµµ Æ÷ÇÔÇÕ´Ï´Ù.)
+(ì´ ì˜ˆì œëŠ” ì•„ëž˜ì˜ ì•µì»¤ ìš”ì†Œ ì½”ë“œë„ í¬í•¨í•©ë‹ˆë‹¤.)
 
 ```html
 <button type="button" class="btn btn-primary btn-lg active">Primary button</button>
 <button type="button" class="btn btn-default btn-lg active">Button</button>
 ```
 
-##### ¾ÞÄ¿ ¿ä¼Ò
+##### ì•µì»¤ ìš”ì†Œ
 
-`<a>` ¹öÆ°¿¡ `.active` Å¬·¡½º¸¦ Ãß°¡ÇÏ¼¼¿ä.
+`<a>` ë²„íŠ¼ì— `.active` í´ëž˜ìŠ¤ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 
 ```html
 <a href="#" class="btn btn-primary btn-lg active" role="button">Primary link</a>
 <a href="#" class="btn btn-default btn-lg active" role="button">Link</a>
 ```
 
-### ºñÈ°¼ºÈ­ µÈ »óÅÂ
+### ë¹„í™œì„±í™” ëœ ìƒíƒœ
 
-`opacity`·Î Èå·ÁÁö°Ô ÇÏ¿© ¹öÆ°À» Å¬¸¯ÇÒ ¼ö ¾ø´Â °ÍÃ³·³ º¸¿©Áö°Ô ¸¸µå¼¼¿ä.  
-(º¸¿©Áö°Ô¸¸ ÇÏ´Â °ÍÀÌ ¾Æ´Ñ ½ÇÁ¦ Å¬¸¯ÀÌ µÇÁö ¾Ê½À´Ï´Ù.)
+`opacity`ë¡œ íë ¤ì§€ê²Œ í•˜ì—¬ ë²„íŠ¼ì„ í´ë¦­í•  ìˆ˜ ì—†ëŠ” ê²ƒì²˜ëŸ¼ ë³´ì—¬ì§€ê²Œ ë§Œë“œì„¸ìš”.  
+(ë³´ì—¬ì§€ê²Œë§Œ í•˜ëŠ” ê²ƒì´ ì•„ë‹Œ ì‹¤ì œ í´ë¦­ì´ ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.)
 
-##### ¹öÆ°¿ä¼Ò
+##### ë²„íŠ¼ìš”ì†Œ
 
-`<button>` ¿ä¼Ò¿¡ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
+`<button>` ìš”ì†Œì— `disabled` ì†ì„±ì„ ì¶”ê°€í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/MKmGvj?editors=100)
-(ÀÌ ¿¹Á¦´Â ¾Æ·¡ÀÇ ¾ÞÄ¿ ¿ä¼Ò ÄÚµåµµ Æ÷ÇÔÇÕ´Ï´Ù.)
+(ì´ ì˜ˆì œëŠ” ì•„ëž˜ì˜ ì•µì»¤ ìš”ì†Œ ì½”ë“œë„ í¬í•¨í•©ë‹ˆë‹¤.)
 
 ```html
 <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
@@ -144,25 +139,25 @@
 ```
 
 ```
-Å©·Î½º ºê¶ó¿ìÀú È£È¯¼º
-¸¸¾à <button>¿¡ diabled ¼Ó¼ºÀ» Ãß°¡ÇÑ´Ù¸é, ÀÎÅÍ³Ý ÀÍ½ºÇÃ·Î·¯ 9 °ú ±× ÀÌÇÏ´Â ¿ì¸®°¡ °íÄ¥ ¼ö ¾ø´Â ÀÌ»óÇÑ ÅØ½ºÆ® ±×¸²°ú È¸»ö ÅØ½ºÆ®°¡ ·£´õ¸µ µÉ °ÍÀÔ´Ï´Ù.
+í¬ë¡œìŠ¤ ë¸Œë¼ìš°ì € í˜¸í™˜ì„±
+ë§Œì•½ <button>ì— diabled ì†ì„±ì„ ì¶”ê°€í•œë‹¤ë©´, ì¸í„°ë„· ìµìŠ¤í”Œë¡œëŸ¬ 9 ê³¼ ê·¸ ì´í•˜ëŠ” ìš°ë¦¬ê°€ ê³ ì¹  ìˆ˜ ì—†ëŠ” ì´ìƒí•œ í…ìŠ¤íŠ¸ ê·¸ë¦¼ê³¼ íšŒìƒ‰ í…ìŠ¤íŠ¸ê°€ ëžœë”ë§ ë  ê²ƒìž…ë‹ˆë‹¤.
 ```
 
-##### ¾ÞÄ¿ ¿ä¼Ò
+##### ì•µì»¤ ìš”ì†Œ
 
-`<a>`¹öÆ°¿¡ `.diabled`¸¦ Ãß°¡ÇÏ¼¼¿ä.
+`<a>`ë²„íŠ¼ì— `.diabled`ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 
 ```html
 <a href="#" class="btn btn-primary btn-lg disabled" role="button">Primary link</a>
 <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
 ```
-¿ì¸®´Â À¯Æ¿¸®Æ¼ Å¬·¡½º·Î `.disabled`¸¦ »ç¿ëÇÕ´Ï´Ù. `.active`µµ µ¿ÀÏÇÕ´Ï´Ù. prefix´Â ÇÊ¿äÇÏÁö ¾Ê½À´Ï´Ù.
+ìš°ë¦¬ëŠ” ìœ í‹¸ë¦¬í‹° í´ëž˜ìŠ¤ë¡œ `.disabled`ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. `.active`ë„ ë™ì¼í•©ë‹ˆë‹¤. prefixëŠ” í•„ìš”í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 
 ```
-¸µÅ© ±â´É¼º °æ°í
-ÀÌ Å¬·¡½º(.diabled)´Â <a>ÀÇ ¸µÅ© ±â´É¼ºÀ» ºñÈ°¼ºÈ­ ÇÏ±â À§ÇØ pointer-events: none¸¦ »ç¿ëÇÕ´Ï´Ù.
-±×·¯³ª ÀÌ CSS ¼Ó¼ºÀº ¾ÆÁ÷ Ç¥ÁØÀÌ µÇÁö ¾Ê¾Æ ¿ÀÆä¶ó 18°ú ÀÌÇÏ ±×¸®°í ÀÎÅÍ³Ý ÀÍ½ºÇÃ·Î·¯ 11¿¡¼­ È¯ÀüÇÏ°Ô Áö¿øµÇÁö ¾Ê½À´Ï´Ù.
-Ãß°¡·Î, pointer-events: none ¸¦ Áö¿øÇÏ´Â ºê¶ó¿ìÀú Á¶Â÷µµ Å°º¸µå ³×ºñ°ÔÀÌ¼Ç¿¡´Â È¿·ÂÀÌ ¾ø½À´Ï´Ù.
-±× ¸»Àº º¸Á¶°øÇÐ »ç¿ëÀÚµéÀº ¿©ÀüÈ÷ ÀÌ·± ¸µÅ©µé¿¡ Á¢±ÙÇÒ ¼ö ÀÖ´Ù´Â ¾ê±âÀÔ´Ï´Ù.
-¾ÈÀüÇÏ°Ô »ç¿ëÇÏ·Á¸é, ±×·± ¸µÅ©µéÀ» ºñÈ°¼ºÈ­ ÇÒ ¼ö ÀÖ´Â ¸ÂÃã ÀÚ¹Ù½ºÅ©¸³Æ®¸¦ »ç¿ëÇÏ¼¼¿ä.
+ë§í¬ ê¸°ëŠ¥ì„± ê²½ê³ 
+ì´ í´ëž˜ìŠ¤(.diabled)ëŠ” <a>ì˜ ë§í¬ ê¸°ëŠ¥ì„±ì„ ë¹„í™œì„±í™” í•˜ê¸° ìœ„í•´ pointer-events: noneë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
+ê·¸ëŸ¬ë‚˜ ì´ CSS ì†ì„±ì€ ì•„ì§ í‘œì¤€ì´ ë˜ì§€ ì•Šì•„ ì˜¤íŽ˜ë¼ 18ê³¼ ì´í•˜ ê·¸ë¦¬ê³  ì¸í„°ë„· ìµìŠ¤í”Œë¡œëŸ¬ 11ì—ì„œ í™˜ì „í•˜ê²Œ ì§€ì›ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+ì¶”ê°€ë¡œ, pointer-events: none ë¥¼ ì§€ì›í•˜ëŠ” ë¸Œë¼ìš°ì € ì¡°ì°¨ë„ í‚¤ë³´ë“œ ë„¤ë¹„ê²Œì´ì…˜ì—ëŠ” íš¨ë ¥ì´ ì—†ìŠµë‹ˆë‹¤.
+ê·¸ ë§ì€ ë³´ì¡°ê³µí•™ ì‚¬ìš©ìžë“¤ì€ ì—¬ì „ížˆ ì´ëŸ° ë§í¬ë“¤ì— ì ‘ê·¼í•  ìˆ˜ ìžˆë‹¤ëŠ” ì–˜ê¸°ìž…ë‹ˆë‹¤.
+ì•ˆì „í•˜ê²Œ ì‚¬ìš©í•˜ë ¤ë©´, ê·¸ëŸ° ë§í¬ë“¤ì„ ë¹„í™œì„±í™” í•  ìˆ˜ ìžˆëŠ” ë§žì¶¤ ìžë°”ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 ```
