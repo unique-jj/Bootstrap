@@ -1,6 +1,5 @@
-# °æº¸¸Ş½ÃÁö (alert.js)
+# ê²½ë³´ë©”ì‹œì§€ (alert.js)
 
 
-[¹ø¿ª»çÀÌÆ®](http://bootstrapk.com/javascript/#alerts)
+[ë²ˆì—­ì‚¬ì´íŠ¸](http://bootstrapk.com/javascript/#alerts)
 
-[¿¹Á¦](http://codepen.io/wookchu/pen/xZzgOZ)
