@@ -1,13 +1,13 @@
-# ¸ð´Þ(Modals)
+# ëª¨ë‹¬(Modals)
 
-¸ð´ÞÀº °£¼ÒÈ­ µÇ¾îÀÖ°í ÃÖ¼ÒÇÑÀÇ ±â´ÉÀ» °¡Áö°í ½º¸¶Æ®ÇÏ°Ô Ç¥ÇöÇÒ ¼ö ÀÖ´Â ´ëÈ­ Ã¢ ÀÔ´Ï´Ù.
+ëª¨ë‹¬ì€ ê°„ì†Œí™” ë˜ì–´ìžˆê³  ìµœì†Œí•œì˜ ê¸°ëŠ¥ì„ ê°€ì§€ê³  ìŠ¤ë§ˆíŠ¸í•˜ê²Œ í‘œí˜„í•  ìˆ˜ ìžˆëŠ” ëŒ€í™” ì°½ ìž…ë‹ˆë‹¤.
 
-## ¸ð´Þ ¿¹Á¦
+## ëª¨ë‹¬ ì˜ˆì œ
 
-### Á¤Àû ¿¹Á¦
+### ì •ì  ì˜ˆì œ
 
-¾Æ·¡ÀÇ ¿¹Á¦¸¦ »ç¿ëÇÏ¸é ¸ð´Þ Ã¢ÀÇ ±âº»ÀûÀÎ ¸ð½ÀÀ» È®ÀÎÇÒ ¼ö ÀÖ½À´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/NGoOLv)
+ì•„ëž˜ì˜ ì˜ˆì œë¥¼ ì‚¬ìš©í•˜ë©´ ëª¨ë‹¬ ì°½ì˜ ê¸°ë³¸ì ì¸ ëª¨ìŠµì„ í™•ì¸í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+
 ```
 <div class="modal fade in" style="display: block;">
   <div class="modal-dialog">
@@ -27,18 +27,18 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 ```
-À§ ¿¹Á¦¸¦ ½ÇÇà½ÃÄÑ º¸¸é ¾Ë ¼ö ÀÖµíÀÌ
+ìœ„ ì˜ˆì œë¥¼ ì‹¤í–‰ì‹œì¼œ ë³´ë©´ ì•Œ ìˆ˜ ìžˆë“¯ì´
 ```
       <div class="modal-body">
         <p>One fine body&hellip;</p>
       </div>
 ```
-¾È¿¡ ³Ö´Â °ÍÀÌ ÁÖ¿ä ÄÁÅÙÃ÷ ÀÔ´Ï´Ù.
+ì•ˆì— ë„£ëŠ” ê²ƒì´ ì£¼ìš” ì»¨í…ì¸  ìž…ë‹ˆë‹¤.
 
-### ¹öÆ° µ¥¸ð
+### ë²„íŠ¼ ë°ëª¨
 
-¾Æ·¡ÀÇ ¿¹Á¦¸¦ »ç¿ëÇÏ¸é ¹öÆ°À» ´­·¶À» ¶§ ¸ð´ÞÃ¢ÀÌ ³ªÅ¸³ª´Â °ÍÀ» º¼ ¼ö ÀÖ½À´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/wKNYYe)
+ì•„ëž˜ì˜ ì˜ˆì œë¥¼ ì‚¬ìš©í•˜ë©´ ë²„íŠ¼ì„ ëˆŒë €ì„ ë•Œ ëª¨ë‹¬ì°½ì´ ë‚˜íƒ€ë‚˜ëŠ” ê²ƒì„ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+
 ```
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -64,13 +64,13 @@
   </div>
 </div>
 ```
-Âü°í·Î ¸ð´ÞÃ¢¿¡ µ¿¿µ»óÀ» ÇÃ·¹ÀÌÇÏ·Á¸é ºÎÆ®½ºÆ®·¦ ¸ð´Þ¸¸À¸·Î´Â ±¸ÇöÀÌ ¾î·Æ°í Ä¿½ºÅÍ¸¶ÀÌÂ¡À» ÇØ¾ßÇÕ´Ï´Ù.
+ì°¸ê³ ë¡œ ëª¨ë‹¬ì°½ì— ë™ì˜ìƒì„ í”Œë ˆì´í•˜ë ¤ë©´ ë¶€íŠ¸ìŠ¤íŠ¸ëž© ëª¨ë‹¬ë§Œìœ¼ë¡œëŠ” êµ¬í˜„ì´ ì–´ë µê³  ì»¤ìŠ¤í„°ë§ˆì´ì§•ì„ í•´ì•¼í•©ë‹ˆë‹¤.
 
 
-### ¸ð´Þ Å©±â ¿É¼Ç
+### ëª¨ë‹¬ í¬ê¸° ì˜µì…˜
 
-¸ð´ÞÀº 2°³ÀÇ ¼±ÅÃ °¡´ÉÇÑ ¿É¼ÇÀÌ ÀÖ½À´Ï´Ù. .modal-dialog¿¡ ±× Å¬·¡½º¸¦ Àû¿ëÇÏ´Â °ÍÀÌ °¡´ÉÇÕ´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/RWveqa)
+ëª¨ë‹¬ì€ 2ê°œì˜ ì„ íƒ ê°€ëŠ¥í•œ ì˜µì…˜ì´ ìžˆìŠµë‹ˆë‹¤. .modal-dialogì— ê·¸ í´ëž˜ìŠ¤ë¥¼ ì ìš©í•˜ëŠ” ê²ƒì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.  
+
 ```
 <!-- Large modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
@@ -94,8 +94,8 @@
   </div>
 </div>
 ```
-À§ÀÇ ¿¹Á¦¿¡¼­ modal-sm, modal-lg ¸¦ ÀÌ¿ëÇÏ´Â °ÍÀ» º¼ ¼ö ÀÖÀ¸¸ç,
-À§ ¿¹Á¦ ÄÚµå´Â ºÎÆ®½ºÆ®·¦ÀÇ ¾Æ·¡ ÄÚµå ºÎºÐÀ» º¸¸é ÀÌÇØÇÒ ¼ö ÀÖ½À´Ï´Ù.
+ìœ„ì˜ ì˜ˆì œì—ì„œ modal-sm, modal-lg ë¥¼ ì´ìš©í•˜ëŠ” ê²ƒì„ ë³¼ ìˆ˜ ìžˆìœ¼ë©°,
+ìœ„ ì˜ˆì œ ì½”ë“œëŠ” ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì˜ ì•„ëž˜ ì½”ë“œ ë¶€ë¶„ì„ ë³´ë©´ ì´í•´í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 ```
 @media (min-width: 768px) {
   .modal-dialog {
@@ -117,10 +117,10 @@
 }
 ```
 
-### ¾Ö´Ï¸ÞÀÌ¼Ç Á¦°Å
+### ì• ë‹ˆë©”ì´ì…˜ ì œê±°
 
-¸ð´ÞÀÌ ³ª¿À´Â °ÍÀ» °£´ÜÇÏ°Ô ÇÏ±â À§ÇØ ¾Ö´Ï¸ÞÀÌ¼ÇÀ» Á¦°ÅÇÏ´Â °Íµµ °¡´ÉÇÕ´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/epxPQP)
+ëª¨ë‹¬ì´ ë‚˜ì˜¤ëŠ” ê²ƒì„ ê°„ë‹¨í•˜ê²Œ í•˜ê¸° ìœ„í•´ ì• ë‹ˆë©”ì´ì…˜ì„ ì œê±°í•˜ëŠ” ê²ƒë„ ê°€ëŠ¥í•©ë‹ˆë‹¤.  
+
 ```
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal">Open modal no Animation</button>
 
@@ -133,9 +133,9 @@
 </div>
 ```
 
-### ±×¸®µå ½Ã½ºÅÛÀ» »ç¿ëÇÏ´Â °Í
-¸ð´Þ¿¡¼­´Â ºÎÆ®½ºÆ®·¦ ±×¸®µå ½Ã½ºÅÛÀÇ ÀÌÁ¡À» ¾ò±âÀ§ÇØ¼­´Â `.modal-body`¾È¿¡ `.row`¸¦ »ç¿ëÇØ ÀÏ¹ÝÀûÀÎ ±×¸®µå ½Ã½ºÅÛ Å¬·¡½º¸¦ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/YyBJdy)
+### ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œì„ ì‚¬ìš©í•˜ëŠ” ê²ƒ
+ëª¨ë‹¬ì—ì„œëŠ” ë¶€íŠ¸ìŠ¤íŠ¸ëž© ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œì˜ ì´ì ì„ ì–»ê¸°ìœ„í•´ì„œëŠ” `.modal-body`ì•ˆì— `.row`ë¥¼ ì‚¬ìš©í•´ ì¼ë°˜ì ì¸ ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+
 ```
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#gridSystemModal">
@@ -146,7 +146,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">¡¿</span></button>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Ã—</span></button>
 				<h4 class="modal-title" id="gridModalLabel">Modal title</h4>
 			</div>
 			<div class="modal-body">
@@ -184,11 +184,11 @@
 </div><!-- /.modal -->
 ```
 
-### Æ®¸®°Å ¹öÆ°À» ±â¹ÝÀ¸·ÎÇÑ ´Ù¾çÇÑ ¸ð´Þ ÄÁÅÙÃ÷
+### íŠ¸ë¦¬ê±° ë²„íŠ¼ì„ ê¸°ë°˜ìœ¼ë¡œí•œ ë‹¤ì–‘í•œ ëª¨ë‹¬ ì»¨í…ì¸ 
 
-¾Æ·¡ÀÇ ¿¹Á¦´Â ¹öÆ°À» Å¬¸¯ÇÒ ¶§ ÇØ´ç ¹öÆ°À» ±â¹ÝÀ¸·Î ³ªÅ¸³ª´Â ¸ð´ÞÃ¢ÀÇ °ªÀ» ¹Ù²Ù¾îÁÖ´Â ¿¹Á¦ÀÔ´Ï´Ù.
-Âü°í·Î script¿¡ ready¸¦ ³ÖÀº °ÍÀº ´Üµ¶ ÆäÀÌÁö¿¡¼­´Â ÀÌ ÇÔ¼ö¸¦ ½á¾ß jQuery°¡ µ¿ÀÛÇÏ±â ¶§¹®ÀÔ´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/zvemeb)
+ì•„ëž˜ì˜ ì˜ˆì œëŠ” ë²„íŠ¼ì„ í´ë¦­í•  ë•Œ í•´ë‹¹ ë²„íŠ¼ì„ ê¸°ë°˜ìœ¼ë¡œ ë‚˜íƒ€ë‚˜ëŠ” ëª¨ë‹¬ì°½ì˜ ê°’ì„ ë°”ê¾¸ì–´ì£¼ëŠ” ì˜ˆì œìž…ë‹ˆë‹¤.
+ì°¸ê³ ë¡œ scriptì— readyë¥¼ ë„£ì€ ê²ƒì€ ë‹¨ë… íŽ˜ì´ì§€ì—ì„œëŠ” ì´ í•¨ìˆ˜ë¥¼ ì¨ì•¼ jQueryê°€ ë™ìž‘í•˜ê¸° ë•Œë¬¸ìž…ë‹ˆë‹¤.  
+
 ```
 <script>
 	$(document).ready(function(){
@@ -237,15 +237,15 @@
 
 ```
 
-###ÀÚ¹Ù½ºÅ©¸³Æ®¸¦ »ç¿ëÇÑ ¹æ¹ý
-ÀÚ¹Ù½ºÅ©¸³Æ®¸¦ »ç¿ëÇÏ¿© ¸ð´ÞÀ» µ¿ÀÛ½ÃÅ³ ¼ö ÀÖ½À´Ï´Ù.
+###ìžë°”ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©í•œ ë°©ë²•
+ìžë°”ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©í•˜ì—¬ ëª¨ë‹¬ì„ ë™ìž‘ì‹œí‚¬ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 ```
 $("#myModal").modal();
 ```
 
-¾Æ·¡´Â ÀÌ °ÍÀ» »ç¿ëÇÑ ¿¹Á¦ÀÔ´Ï´Ù.
-´Ù¸¥ ¸ðµç ¼³Á¤Àº °°À¸³ª ¸ð´ÞÀ» Åä±ÛÇÏ´Â °ÍÀÌ ÀÚ¹Ù½ºÅ©¸³Æ®·Î ±¸ÇöµÇ¾î ÀÖ½À´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/epxPXQ)
+ì•„ëž˜ëŠ” ì´ ê²ƒì„ ì‚¬ìš©í•œ ì˜ˆì œìž…ë‹ˆë‹¤.
+ë‹¤ë¥¸ ëª¨ë“  ì„¤ì •ì€ ê°™ìœ¼ë‚˜ ëª¨ë‹¬ì„ í† ê¸€í•˜ëŠ” ê²ƒì´ ìžë°”ìŠ¤í¬ë¦½íŠ¸ë¡œ êµ¬í˜„ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.  
+
 ```
 <div class="container">
   <h2>Activate Modal with JavaScript</h2>
@@ -284,10 +284,10 @@ $(document).ready(function(){
 </script>
 ```
 
-### ÀÌº¥Æ® ¿¹Á¦
+### ì´ë²¤íŠ¸ ì˜ˆì œ
 
-¾Æ·¡ÀÇ ¿¹Á¦¸¦ ÅëÇØ ÀÌº¥Æ®ÀÇ µ¿ÀÛÇÏ´Â ¹æ½ÄÀ» º¼ ¼ö ÀÖ½À´Ï´Ù.
-[¿¹Á¦](http://codepen.io/luensys/pen/NGoOmw)
+ì•„ëž˜ì˜ ì˜ˆì œë¥¼ í†µí•´ ì´ë²¤íŠ¸ì˜ ë™ìž‘í•˜ëŠ” ë°©ì‹ì„ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+
 
 ```
 <div class="container">
@@ -331,9 +331,9 @@ $(document).ready(function(){
 });
 </script>
 ```
-¿¹Á¦¸¦ ½ÇÇà½ÃÄÑ º¸¸é
-showÀÇ °æ¿ì ¸ð´Þ Ã¢ÀÌ ½ÇÇàµÇ±â Àü¿¡ ³ªÅ¸³ª´Â °ÍÀ» º¼ ¼ö ÀÖ°í,
-shownÀÇ °æ¿ì ¸ð´Þ Ã¢ÀÌ ½ÇÇàµÈ ÈÄ¿¡ ³ªÅ¸³ª´Â °ÍÀ» º¼ ¼ö ÀÖ½À´Ï´Ù.
+ì˜ˆì œë¥¼ ì‹¤í–‰ì‹œì¼œ ë³´ë©´
+showì˜ ê²½ìš° ëª¨ë‹¬ ì°½ì´ ì‹¤í–‰ë˜ê¸° ì „ì— ë‚˜íƒ€ë‚˜ëŠ” ê²ƒì„ ë³¼ ìˆ˜ ìžˆê³ ,
+shownì˜ ê²½ìš° ëª¨ë‹¬ ì°½ì´ ì‹¤í–‰ëœ í›„ì— ë‚˜íƒ€ë‚˜ëŠ” ê²ƒì„ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
 
 
