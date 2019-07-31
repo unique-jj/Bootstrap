@@ -1,17 +1,16 @@
 # Collapse
 
-½±°Ô Åä±Û Çàµ¿À» ÇÏ±âÀ§ÇÑ ¸î °³ÀÇ Å¬·¡½º µéÀ» ÀÌ¿ëÇÏ´Â À¯¿¬ÇÑ ÇÃ·¯±×ÀÎ ÀÔ´Ï´Ù.
+ì‰½ê²Œ í† ê¸€ í–‰ë™ì„ í•˜ê¸°ìœ„í•œ ëª‡ ê°œì˜ í´ëž˜ìŠ¤ ë“¤ì„ ì´ìš©í•˜ëŠ” ìœ ì—°í•œ í”ŒëŸ¬ê·¸ì¸ ìž…ë‹ˆë‹¤.
 
-## Collapse ¿¹Á¦
+## Collapse ì˜ˆì œ
 
-### ¿¡Á¦
-.collapse ÄÁÅÙÃ÷¸¦ ¼û°Ü ÁÝ´Ï´Ù.
-.collapsing ÀüÈ¯ Áß¿¡ Àû¿ëµË´Ï´Ù.
-.collapse.in ÄÁÅÙÃ÷¸¦ º¸¿©ÁÝ´Ï´Ù.
+### ì—ì œ
+.collapse ì»¨í…ì¸ ë¥¼ ìˆ¨ê²¨ ì¤ë‹ˆë‹¤.
+.collapsing ì „í™˜ ì¤‘ì— ì ìš©ë©ë‹ˆë‹¤.
+.collapse.in ì»¨í…ì¸ ë¥¼ ë³´ì—¬ì¤ë‹ˆë‹¤.
 
-¾Æ·¡´Â ¹öÆ°À» ´©¸£¸é ³ªÅ¸³ª°í »ç¶óÁö´Â ¿¹Á¦ ÀÔ´Ï´Ù.  
-jsfiddle [¿¹Á¦](http://jsfiddle.net/luensys/2e6jm9hm/)  
-codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/epxjWw)
+ì•„ëž˜ëŠ” ë²„íŠ¼ì„ ëˆ„ë¥´ë©´ ë‚˜íƒ€ë‚˜ê³  ì‚¬ë¼ì§€ëŠ” ì˜ˆì œ ìž…ë‹ˆë‹¤.  
+
 ```
 <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 	Link with href
@@ -26,11 +25,10 @@ codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/epxjWw)
 </div>
 ```
 
-### Accordion ¿¹Á¦
-ÆÐ³Î ÄÞÆ÷³ÍÆ®¿Í AccodionÀ» ¸¸µå·Á¸é ±âº» ÄÃ·¦½º ÇàÀ§¸¦ È®ÀåÇÏ¼¼¿ä.  
+### Accordion ì˜ˆì œ
+íŒ¨ë„ ì½¤í¬ë„ŒíŠ¸ì™€ Accodionì„ ë§Œë“œë ¤ë©´ ê¸°ë³¸ ì»¬ëž©ìŠ¤ í–‰ìœ„ë¥¼ í™•ìž¥í•˜ì„¸ìš”.  
   
-jsfiddle [¿¹Á¦](http://jsfiddle.net/luensys/2e6jm9hm/1/)  
-codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/avXjmz)  
+
 ```
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
@@ -77,15 +75,14 @@ codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/avXjmz)
   </div>
 </div>
 ```
-À§ ¿¹Á¦ÀÇ °æ¿ì µÎ °³ ÀÌ»óÀÌ È®ÀåµÇÁö ¾Ê´Âµ¥¿ä.
-±× ÀÌÀ¯´Â panel ±×·ìÀ¸·Î ¹­¿© ÀÖ¾î ±×·¸½À´Ï´Ù.
-°¡Àå »óÀ§ div¸¦ »èÁ¦ÇÏ µÇ¸é °¢°¢Àº µ¶¸³ÀûÀ¸·Î µ¿ÀÛÇÏ°Ô µË´Ï´Ù.
+ìœ„ ì˜ˆì œì˜ ê²½ìš° ë‘ ê°œ ì´ìƒì´ í™•ìž¥ë˜ì§€ ì•ŠëŠ”ë°ìš”.
+ê·¸ ì´ìœ ëŠ” panel ê·¸ë£¹ìœ¼ë¡œ ë¬¶ì—¬ ìžˆì–´ ê·¸ë ‡ìŠµë‹ˆë‹¤.
+ê°€ìž¥ ìƒìœ„ divë¥¼ ì‚­ì œí•˜ ë˜ë©´ ê°ê°ì€ ë…ë¦½ì ìœ¼ë¡œ ë™ìž‘í•˜ê²Œ ë©ë‹ˆë‹¤.
 
-¶ÇÇÑ .panel-body µéÀ» .list-group µé·Î ±³È¯ÇÏ´Â °Íµµ °¡´ÉÇÕ´Ï´Ù.
-µû¶ó¼­ ±× ¹Ý´ëÀÎ .list-group µéÀ» .panel-body µé·Î ±³È¯ÇÏ´Â °Íµµ °¡´ÉÇÕ´Ï´Ù.  
+ë˜í•œ .panel-body ë“¤ì„ .list-group ë“¤ë¡œ êµí™˜í•˜ëŠ” ê²ƒë„ ê°€ëŠ¥í•©ë‹ˆë‹¤.
+ë”°ë¼ì„œ ê·¸ ë°˜ëŒ€ì¸ .list-group ë“¤ì„ .panel-body ë“¤ë¡œ êµí™˜í•˜ëŠ” ê²ƒë„ ê°€ëŠ¥í•©ë‹ˆë‹¤.  
 
-jsfiddle [¿¹Á¦](http://jsfiddle.net/luensys/2e6jm9hm/2/)  
-codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/GpzXWP)  
+
 ```
 <div class="panel-group" role="tablist">
   <div class="panel panel-default">
@@ -108,11 +105,11 @@ codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/GpzXWP)
 </div>
 ```
 
-### ÀÌº¥Æ® ¿¹Á¦
+### ì´ë²¤íŠ¸ ì˜ˆì œ
 
-¾Æ·¡´Â Collapse¸¦ ÀÌ¿ëÇØ ´ë»óÀ» ¼û±æ ¶§ ÀÌº¥Æ®°¡ »ý±â´Â ¿¹Á¦ ÀÔ´Ï´Ù
-Âü°í·Î ¾Æ·¡ ÄÚµå¿¡¼­ script¿¡ ready¸¦ ³ÖÀº °ÍÀº ´Üµ¶ ÆäÀÌÁö¿¡¼­´Â ÀÌ ÇÔ¼ö¸¦ ½á¾ß jQuery°¡ µ¿ÀÛÇÏ±â ¶§¹®ÀÔ´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/QjYZmq)
+ì•„ëž˜ëŠ” Collapseë¥¼ ì´ìš©í•´ ëŒ€ìƒì„ ìˆ¨ê¸¸ ë•Œ ì´ë²¤íŠ¸ê°€ ìƒê¸°ëŠ” ì˜ˆì œ ìž…ë‹ˆë‹¤
+ì°¸ê³ ë¡œ ì•„ëž˜ ì½”ë“œì—ì„œ scriptì— readyë¥¼ ë„£ì€ ê²ƒì€ ë‹¨ë… íŽ˜ì´ì§€ì—ì„œëŠ” ì´ í•¨ìˆ˜ë¥¼ ì¨ì•¼ jQueryê°€ ë™ìž‘í•˜ê¸° ë•Œë¬¸ìž…ë‹ˆë‹¤.  
+
 ```
 <script>
 	$(document).ready(function(){
@@ -167,8 +164,8 @@ codepen.io [¿¹Á¦](http://codepen.io/luensys/pen/GpzXWP)
 </div>
 ```
 
-¾Æ·¡ ¿¹Á¦´Â ÀÌº¥Æ® Å¸ÀÌ¹ÖÀ» º¼ ¼ö ÀÖ´Â ¿¹Á¦ÀÔ´Ï´Ù.  
-[¿¹Á¦](http://codepen.io/luensys/pen/bVzmMW)
+ì•„ëž˜ ì˜ˆì œëŠ” ì´ë²¤íŠ¸ íƒ€ì´ë°ì„ ë³¼ ìˆ˜ ìžˆëŠ” ì˜ˆì œìž…ë‹ˆë‹¤.  
+
 ```
 <div class="container">
   <h2>Collapsible Methods</h2>
@@ -212,7 +209,7 @@ $(document).ready(function(){
 });
 </script>
 ```
-¿¹Á¦¸¦ º¸¸é showÀÇ °æ¿ì ³»¿ëÀÌ º¸¿©Áö±â Àü¿¡ ¾Ë¸²Ã¢ÀÌ º¸ÀÌ´Â °ÍÀ» º¼ ¼ö ÀÖ°í,
-shownÀÇ °æ¿ì ³»¿ëÀÌ º¸¿©Áø ÈÄ ¾Ë¸²Ã¢ÀÌ º¸ÀÌ´Â °ÍÀ» º¼ ¼ö ÀÖ½À´Ï´Ù.
+ì˜ˆì œë¥¼ ë³´ë©´ showì˜ ê²½ìš° ë‚´ìš©ì´ ë³´ì—¬ì§€ê¸° ì „ì— ì•Œë¦¼ì°½ì´ ë³´ì´ëŠ” ê²ƒì„ ë³¼ ìˆ˜ ìžˆê³ ,
+shownì˜ ê²½ìš° ë‚´ìš©ì´ ë³´ì—¬ì§„ í›„ ì•Œë¦¼ì°½ì´ ë³´ì´ëŠ” ê²ƒì„ ë³¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
 
