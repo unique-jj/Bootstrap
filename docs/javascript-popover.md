@@ -1,9 +1,7 @@
-# ÆË¿À¹ö (popover.js)
+# íŒì˜¤ë²„ (popover.js)
 
-¾î¶² ¿ä¼Ò¿¡ ºÎ°¡ÀûÀÎ Á¤º¸¸¦ À§ÇØ ÀÛÀº ÄÜÅÙÃ÷ ¿À¹ö·¹ÀÌ¸¦ Ãß°¡ÇÕ´Ï´Ù.
+ì–´ë–¤ ìš”ì†Œì— ë¶€ê°€ì ì¸ ì •ë³´ë¥¼ ìœ„í•´ ì‘ì€ ì½˜í…ì¸  ì˜¤ë²„ë ˆì´ë¥¼ ì¶”ê°€í•©ë‹ˆë‹¤.
 
 
 
-[¹ø¿ª»çÀÌÆ®](http://bootstrapk.com/javascript/#popovers)
-
-[¿¹Á¦](http://codepen.io/wookchu/pen/YwvyEr)
+[ë²ˆì—­ì‚¬ì´íŠ¸](http://bootstrapk.com/javascript/#popovers)
