@@ -1,4 +1,4 @@
-?#### HTML5 ¹®¼­ À¯Çü  
+?#### HTML5 ë¬¸ì„œ ìœ í˜•  
 ```
 <!DOCTYPE html>
 <html lang="ko">
@@ -6,42 +6,42 @@
 </html>
 ```
 
-#### ¸ð¹ÙÀÏ ¿ì¼± Mobile first
+#### ëª¨ë°”ì¼ ìš°ì„  Mobile first
 
-* ÀûÀýÇÑ ·»´õ¸µ°ú È®´ë/Ãà¼Ò¸¦ À§ÇØ, ´ç½ÅÀÇ `<head>`¿¡ viewport ¸ÞÅ¸ÅÂ±×¸¦ Ãß°¡ÇÏ¼¼¿ä.
+* ì ì ˆí•œ ë Œë”ë§ê³¼ í™•ëŒ€/ì¶•ì†Œë¥¼ ìœ„í•´, ë‹¹ì‹ ì˜ `<head>`ì— viewport ë©”íƒ€íƒœê·¸ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-* user-scalable=no ¸¦ Ãß°¡ÇÏ¿© ¸ð¹ÙÀÏ ±â±â¿¡¼­ È®´ë/Ãà¼Ò ±â´ÉÀ» ²ø ¼ö ÀÖ½À´Ï´Ù.  
-È®´ë/Ãà¼Ò¸¦ ²ö´Ù´Â °ÍÀº, »ç¿ëÀÚµéÀÌ ¿ÀÁ÷ ½ºÅ©·Ñ¸¸ ÇÒ ¼ö ÀÖÀ½À» ÀÇ¹ÌÇÕ´Ï´Ù.
+* user-scalable=no ë¥¼ ì¶”ê°€í•˜ì—¬ ëª¨ë°”ì¼ ê¸°ê¸°ì—ì„œ í™•ëŒ€/ì¶•ì†Œ ê¸°ëŠ¥ì„ ëŒ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+í™•ëŒ€/ì¶•ì†Œë¥¼ ëˆë‹¤ëŠ” ê²ƒì€, ì‚¬ìš©ìžë“¤ì´ ì˜¤ì§ ìŠ¤í¬ë¡¤ë§Œ í•  ìˆ˜ ìžˆìŒì„ ì˜ë¯¸í•©ë‹ˆë‹¤.
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
 
-#### Å¸ÀÌÆ÷±×·¡ÇÇ¿Í ¸µÅ©
+#### íƒ€ì´í¬ê·¸ëž˜í”¼ì™€ ë§í¬
 
-* `body` ¿¡¼­ `background-color: #fff;` ¸¦ ¼³Á¤ÇÕ´Ï´Ù.  
-* ±âº» Å¸ÀÌÆ÷±×·¡ÇÇ·Î ¼Ó¼º `@font-family-base`, `@font-size-base`, `@line-height-base` ¸¦ »ç¿ëÇÕ´Ï´Ù.  
-* Àü¿ª ¸µÅ©ÀÇ »öÀº `@link-color` ¿¡ ¼³Á¤ÇÏ°í ¹ØÁÙÈ¿°ú´Â `:hover` ¿¡¸¸ Àû¿ëµÇ¾î ÀÖ½À´Ï´Ù.  
-* ÀÌ ½ºÅ¸ÀÏµéÀº `scaffolding.less` ³»¿¡¼­ Ã£À» ¼ö ÀÖ½À´Ï´Ù.
+* `body` ì—ì„œ `background-color: #fff;` ë¥¼ ì„¤ì •í•©ë‹ˆë‹¤.  
+* ê¸°ë³¸ íƒ€ì´í¬ê·¸ëž˜í”¼ë¡œ ì†ì„± `@font-family-base`, `@font-size-base`, `@line-height-base` ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.  
+* ì „ì—­ ë§í¬ì˜ ìƒ‰ì€ `@link-color` ì— ì„¤ì •í•˜ê³  ë°‘ì¤„íš¨ê³¼ëŠ” `:hover` ì—ë§Œ ì ìš©ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.  
+* ì´ ìŠ¤íƒ€ì¼ë“¤ì€ `scaffolding.less` ë‚´ì—ì„œ ì°¾ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-#### CSS ÃÊ±âÈ­
+#### CSS ì´ˆê¸°í™”
 
-Çâ»óµÈ Å©·Î½º ºê¶ó¿ìÂ¡À» À§ÇØ Normalize.css ¸¦ »ç¿ëÇÕ´Ï´Ù.
+í–¥ìƒëœ í¬ë¡œìŠ¤ ë¸Œë¼ìš°ì§•ì„ ìœ„í•´ Normalize.css ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
 [Normalize.css](http://necolas.github.io/normalize.css/)
 
 
 ## Containers
 
-  * ºÎÆ®½ºÆ®·¦Àº »çÀÌÆ® ÄÜÅÙÃ÷¸¦ °¨½Î°í ±×¸®µå ½Ã½ºÅÛÀ» ¸¸µé ÄÜÅ×ÀÌ³Ê ¿ä¼Ò°¡ ÇÊ¿äÇÕ´Ï´Ù. 
-  * ·¹ÀÌ¾Æ¿ôÀ» ¸¸µå´Â °¡Àå »óÀ§ ¿ä¼Ò¿¡ `.container` ¶Ç´Â `.container-fluid`¸¦ Ãß°¡ÇÕ´Ï´Ù.
-  * 2°¡Áö ÄÜÅ×ÀÌ³Ê Áß ÇÏ³ª¸¦ ¼±ÅÃÇÒ ¼ö ÀÖ½À´Ï´Ù.
+  * ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì€ ì‚¬ì´íŠ¸ ì½˜í…ì¸ ë¥¼ ê°ì‹¸ê³  ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œì„ ë§Œë“¤ ì½˜í…Œì´ë„ˆ ìš”ì†Œê°€ í•„ìš”í•©ë‹ˆë‹¤. 
+  * ë ˆì´ì•„ì›ƒì„ ë§Œë“œëŠ” ê°€ìž¥ ìƒìœ„ ìš”ì†Œì— `.container` ë˜ëŠ” `.container-fluid`ë¥¼ ì¶”ê°€í•©ë‹ˆë‹¤.
+  * 2ê°€ì§€ ì½˜í…Œì´ë„ˆ ì¤‘ í•˜ë‚˜ë¥¼ ì„ íƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-  **container´Â ±âº»ÀûÀ¸·Î ÁßÃ¸ µÉ ¼ö¾ø´Â °ÍÀ» À¯ÀÇÇÏ½Ê½Ã¿À.**
+  **containerëŠ” ê¸°ë³¸ì ìœ¼ë¡œ ì¤‘ì²© ë  ìˆ˜ì—†ëŠ” ê²ƒì„ ìœ ì˜í•˜ì‹­ì‹œì˜¤.**
 
 
-### .containerÀÇ ¼Ó¼º(°íÁ¤Æø ÄÜÅ×ÀÌ³Ê)
+### .containerì˜ ì†ì„±(ê³ ì •í­ ì½˜í…Œì´ë„ˆ)
 
 ```
       .container {
@@ -68,13 +68,13 @@
     }
 ```
 
-°¡·Î ÇØ»óµµ - 767px ÀÌÇÏ¿¡¼­´Â 100%,   
-            - 768px ÀÌ»ó¿¡¼­´Â 750px,   
-            - 992px ÀÌ»ó¿¡¼­´Â 970px,   
-            - 1200px ÀÌ»ó¿¡¼­´Â 1170px  
+ê°€ë¡œ í•´ìƒë„ - 767px ì´í•˜ì—ì„œëŠ” 100%,   
+            - 768px ì´ìƒì—ì„œëŠ” 750px,   
+            - 992px ì´ìƒì—ì„œëŠ” 970px,   
+            - 1200px ì´ìƒì—ì„œëŠ” 1170px  
 
 
-### .container-fluid ¼Ó¼º(ÀüÃ¼Æø±îÁö ´Ã¾î³ª´Â ÃÖ´ëÆø ÄÜÅ×ÀÌ³Ê)
+### .container-fluid ì†ì„±(ì „ì²´í­ê¹Œì§€ ëŠ˜ì–´ë‚˜ëŠ” ìµœëŒ€í­ ì½˜í…Œì´ë„ˆ)
 
 ```
   .container-fluid {
@@ -85,13 +85,7 @@
 }
 ```
 
-**°¡·Î ÇØ»óµµ¿¡ °ü°è¾øÀÌ 100%ÀÇ °¡·ÎÆøÀ» °¡Áý´Ï´Ù.**
+**ê°€ë¡œ í•´ìƒë„ì— ê´€ê³„ì—†ì´ 100%ì˜ ê°€ë¡œí­ì„ ê°€ì§‘ë‹ˆë‹¤.**
 
-### ¿¹Á¦
-<div>
-<p data-height="268" data-theme-id="0" data-slug-hash="PPxrbB" data-default-tab="result" data-user="hklim82" class='codepen'>See the Pen <a href='http://codepen.io/hklim82/pen/PPxrbB/'>bootstrap container</a> by kero (<a href='http://codepen.io/hklim82'>@hklim82</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
- </div>
-
-[ÀÌÀüÆäÀÌÁö- ºÎÆ®½ºÆ®·¦ ½ÃÀÛÇÏ±â](bootstrap-start.md)  
-[´ÙÀ½ÆäÀÌÁö- ºÎÆ®½ºÆ®·¦CSS_±×¸®µå](css-grid.md)
+[ì´ì „íŽ˜ì´ì§€- ë¶€íŠ¸ìŠ¤íŠ¸ëž© ì‹œìž‘í•˜ê¸°](bootstrap-start.md)  
+[ë‹¤ìŒíŽ˜ì´ì§€- ë¶€íŠ¸ìŠ¤íŠ¸ëž©CSS_ê·¸ë¦¬ë“œ](css-grid.md)
