@@ -1,7 +1,6 @@
-# ¹öÆ°(button.js)
+# ë²„íŠ¼(button.js)
 
-¹öÆ° »óÅÂ¸¦ Á¦¾îÇÏ°Å³ª Åø¹Ù°°Àº ÄŞÆ÷³ÍÆ®¸¦ À§ÇÑ ¹öÆ° ±×·ìÀ» ¸¸µé ¼ö ÀÖ´Ù.
+ë²„íŠ¼ ìƒíƒœë¥¼ ì œì–´í•˜ê±°ë‚˜ íˆ´ë°”ê°™ì€ ì½¤í¬ë„ŒíŠ¸ë¥¼ ìœ„í•œ ë²„íŠ¼ ê·¸ë£¹ì„ ë§Œë“¤ ìˆ˜ ìˆë‹¤.
 
-[¹ø¿ª»çÀÌÆ®](http://bootstrapk.com/javascript/#buttons)
+[ë²ˆì—­ì‚¬ì´íŠ¸](http://bootstrapk.com/javascript/#buttons)
 
-[¿¹Á¦](http://codepen.io/wookchu/pen/vLrggJ)
