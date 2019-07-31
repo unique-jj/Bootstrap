@@ -2,61 +2,61 @@
 
 
 
-### ±âº» ¿¹Á¦
+### ê¸°ë³¸ ì˜ˆì œ
 
-°¢°¢ÀÇ Æû ÄÁÆ®·ÑÀº ÀÚµ¿ÀûÀ¸·Î ¾à°£ÀÇ Àü¿ª ½ºÅ¸ÀÏÀ» ¹Þ°Ô ¹Þ°Ô µË´Ï´Ù. `.form-control`¿¡ ÀÖ´Â ¸ðµç ÅØ½ºÆ® Çü½ÄÀÇ `<input>`, `<textarea>`, `<select>`´Â ±âº»À¸·Î width¸¦ 100%·Î Á¤ÇØÁý´Ï´Ù. ÃÖÀûÀÇ ¿©¹éÀ» À§ÇØ ¶óº§µé°ú ÄÜÆ®·ÑµéÀº `.form-group`À¸·Î ¹­¾î¾ß ÇÕ´Ï´Ù.
+ê°ê°ì˜ í¼ ì»¨íŠ¸ë¡¤ì€ ìžë™ì ìœ¼ë¡œ ì•½ê°„ì˜ ì „ì—­ ìŠ¤íƒ€ì¼ì„ ë°›ê²Œ ë°›ê²Œ ë©ë‹ˆë‹¤. `.form-control`ì— ìžˆëŠ” ëª¨ë“  í…ìŠ¤íŠ¸ í˜•ì‹ì˜ `<input>`, `<textarea>`, `<select>`ëŠ” ê¸°ë³¸ìœ¼ë¡œ widthë¥¼ 100%ë¡œ ì •í•´ì§‘ë‹ˆë‹¤. ìµœì ì˜ ì—¬ë°±ì„ ìœ„í•´ ë¼ë²¨ë“¤ê³¼ ì½˜íŠ¸ë¡¤ë“¤ì€ `.form-group`ìœ¼ë¡œ ë¬¶ì–´ì•¼ í•©ë‹ˆë‹¤.
 
-![±âº» ¿¹Á¦ Å×ÀÌºí](../images/css-table-basic.png)
+![ê¸°ë³¸ ì˜ˆì œ í…Œì´ë¸”](../images/css-table-basic.png)
 
-[¿¹Á¦](http://codepen.io/luensys/pen/GoZwYj?editors=100)
+
 ```html
 <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">ÀÌ¸ÞÀÏ ÁÖ¼Ò</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ÀÌ¸ÞÀÏÀ» ÀÔ·ÂÇÏ¼¼¿ä">
+    <label for="exampleInputEmail1">ì´ë©”ì¼ ì£¼ì†Œ</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ì´ë©”ì¼ì„ ìž…ë ¥í•˜ì„¸ìš”">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">¾ÏÈ£</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="¾ÏÈ£">
+    <label for="exampleInputPassword1">ì•”í˜¸</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ì•”í˜¸">
   </div>
   <div class="form-group">
-    <label for="exampleInputFile">ÆÄÀÏ ¾÷·Îµå</label>
+    <label for="exampleInputFile">íŒŒì¼ ì—…ë¡œë“œ</label>
     <input type="file" id="exampleInputFile">
-    <p class="help-block">¿©±â¿¡ ºí·Ï·¹º§ µµ¿ò¸» ¿¹Á¦</p>
+    <p class="help-block">ì—¬ê¸°ì— ë¸”ë¡ë ˆë²¨ ë„ì›€ë§ ì˜ˆì œ</p>
   </div>
   <div class="checkbox">
     <label>
-      <input type="checkbox"> ÀÔ·ÂÀ» ±â¾ïÇÕ´Ï´Ù
+      <input type="checkbox"> ìž…ë ¥ì„ ê¸°ì–µí•©ë‹ˆë‹¤
     </label>
   </div>
-  <button type="submit" class="btn btn-default">Á¦Ãâ</button>
+  <button type="submit" class="btn btn-default">ì œì¶œ</button>
 </form>
 ```
 ```
-form-group°ú input-groupÀ» °°ÀÌ ¾²Áö ¸¶¼¼¿ä.
-form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group ¾È¿¡ ¾²¼¼¿ä.
+form-groupê³¼ input-groupì„ ê°™ì´ ì“°ì§€ ë§ˆì„¸ìš”.
+form-groupê³¼ input-groupì„ ì§ì ‘ ê°™ì´ ì“°ì§€ ë§ˆì„¸ìš”. ëŒ€ì‹  input-groupì€ form-group ì•ˆì— ì“°ì„¸ìš”.
 ```
 
-### ÀÎ¶óÀÎ Æû
+### ì¸ë¼ì¸ í¼
 
-ÁÂÃøÀ¸·Î Á¤·ÄÇÏ±â À§ÇØ¼­´Â `form-inline`À» Ãß°¡ÇÏ¼¼¿ä. ´Ü, ÀÌ°ÍÀº ÃÖ¼Ò 768pxÀÇ ºäÆ÷Æ® ³»ÀÇ Æû¿¡¸¸ Àû¿ëµË´Ï´Ù.
+ì¢Œì¸¡ìœ¼ë¡œ ì •ë ¬í•˜ê¸° ìœ„í•´ì„œëŠ” `form-inline`ì„ ì¶”ê°€í•˜ì„¸ìš”. ë‹¨, ì´ê²ƒì€ ìµœì†Œ 768pxì˜ ë·°í¬íŠ¸ ë‚´ì˜ í¼ì—ë§Œ ì ìš©ë©ë‹ˆë‹¤.
 
-¸ÂÃã ³Êºñ°¡ ÇÊ¿äÇÒ ¼ö ÀÌ½À´Ï´Ù.  
-ÀÔ·Â ÄÜÆ®·ÑÀÌ³ª ¼¿·ºÆ® ÄÜÆ®·ÑÀº ºÎÆ®½ºÆ®·¦¿¡¼­ ±âº»ÀûÀ¸·Î `width:100%`°¡ Àû¿ëµÇ¾î ÀÖ½À´Ï´Ù.  
-ÀÎ¶óÀÎ Æû ³»¿¡¼­´Â ÀÌ °ÍÀ» `width: auto;`·Î ÃÊ±âÈ­ ÇÏ¿© ¸î °³ÀÇ ÄÜÆ®·ÑµéÀ» °°Àº ÁÙ¿¡ ÀÖµµ·Ï ÇÒ ¼ö ÀÖ½À´Ï´Ù.  
-·¹ÀÌ¾Æ¿ô¿¡ µû¶ó Ãß°¡ÀûÀÎ ¸ÂÃã ³Êºñ°¡ ÇÊ¿äÇÒ ¼ö ÀÖ½À´Ï´Ù.  
+ë§žì¶¤ ë„ˆë¹„ê°€ í•„ìš”í•  ìˆ˜ ì´ìŠµë‹ˆë‹¤.  
+ìž…ë ¥ ì½˜íŠ¸ë¡¤ì´ë‚˜ ì…€ë ‰íŠ¸ ì½˜íŠ¸ë¡¤ì€ ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì—ì„œ ê¸°ë³¸ì ìœ¼ë¡œ `width:100%`ê°€ ì ìš©ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.  
+ì¸ë¼ì¸ í¼ ë‚´ì—ì„œëŠ” ì´ ê²ƒì„ `width: auto;`ë¡œ ì´ˆê¸°í™” í•˜ì—¬ ëª‡ ê°œì˜ ì½˜íŠ¸ë¡¤ë“¤ì„ ê°™ì€ ì¤„ì— ìžˆë„ë¡ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+ë ˆì´ì•„ì›ƒì— ë”°ë¼ ì¶”ê°€ì ì¸ ë§žì¶¤ ë„ˆë¹„ê°€ í•„ìš”í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
 
 
-¾ðÁ¦³ª ¶óº§À» Ãß°¡ÇÏ¼¼¿ä.  
-½ºÅ©¸° ¸®´õ´Â input ¶óº§À» Æ÷ÇÔÇÏÁö ¾ÊÀ» °æ¿ì ¹®Á¦°¡ »ý±æ ¼ö ÀÖ½À´Ï´Ù.  
-ÀÎ¶óÀÎ ÆûÀ» À§ÇØ¼­ `.sr-only`¸¦ »ç¿ëÇÏ¿© ¶óº§À» ¼û±æ ¼ö ÀÖ½À´Ï´Ù.  
-º¸Á¶ÀûÀÎ ¹æ¹ýÀ¸·Î `area-label`, `aria-labelledby`, `title`ÀÌ ÀÖ½À´Ï´Ù.  
-ÀÌ·± °ÍµéÀÌ Á¸ÀçÇÏÁö ¾Ê´Â´Ù¸é ½ºÅ©¸° ¸®´õ´Â `placeholder` ¼Ó¼º¿¡ ÀÇÁöÇÒ ¼ö ¹Û¿¡ ¾øÀ¸³ª,  
-`placeholder`·Î ´Ù¸¥ ¶óº§¸µÀ» ´ëÃ¼ÇÏ´Â °ÍÀº ±ÇÀåÇÏÁö ¾Ê½À´Ï´Ù.  
+ì–¸ì œë‚˜ ë¼ë²¨ì„ ì¶”ê°€í•˜ì„¸ìš”.  
+ìŠ¤í¬ë¦° ë¦¬ë”ëŠ” input ë¼ë²¨ì„ í¬í•¨í•˜ì§€ ì•Šì„ ê²½ìš° ë¬¸ì œê°€ ìƒê¸¸ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+ì¸ë¼ì¸ í¼ì„ ìœ„í•´ì„œ `.sr-only`ë¥¼ ì‚¬ìš©í•˜ì—¬ ë¼ë²¨ì„ ìˆ¨ê¸¸ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+ë³´ì¡°ì ì¸ ë°©ë²•ìœ¼ë¡œ `area-label`, `aria-labelledby`, `title`ì´ ìžˆìŠµë‹ˆë‹¤.  
+ì´ëŸ° ê²ƒë“¤ì´ ì¡´ìž¬í•˜ì§€ ì•ŠëŠ”ë‹¤ë©´ ìŠ¤í¬ë¦° ë¦¬ë”ëŠ” `placeholder` ì†ì„±ì— ì˜ì§€í•  ìˆ˜ ë°–ì— ì—†ìœ¼ë‚˜,  
+`placeholder`ë¡œ ë‹¤ë¥¸ ë¼ë²¨ë§ì„ ëŒ€ì²´í•˜ëŠ” ê²ƒì€ ê¶Œìž¥í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.  
 
-![ÀÎ¶óÀÎ ¿¹Á¦ Å×ÀÌºí](../images/css-table-inline.png)
+![ì¸ë¼ì¸ ì˜ˆì œ í…Œì´ë¸”](../images/css-table-inline.png)
 
-[¿¹Á¦](http://codepen.io/luensys/pen/JGEZwK?editors=100)
+
 
 ```html
 <form class="form-inline">
@@ -72,13 +72,13 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </form>
 ```
 
-### ¼öÆò Æû
-Æû¿¡ `.form-horizontal`À» Ãß°¡ÇÏ¿© ¶óº§µé°ú Æû ÄÁÆ®·ÑÀ» ¹Ì¸® Á¤ÀÇµÈ ±×¸®µå Å¬·¡½º·Î Á¶ÀýÀÌ °¡´ÉÇÕ´Ï´Ù.  
-±×¸®µåÇà ¿ªÇÒÀº `.form-group`ÀÌ ÇÏ±â ¶§¹®¿¡ `.row`´Â ÇÊ¿ä°¡ ¾ø½À´Ï´Ù.
+### ìˆ˜í‰ í¼
+í¼ì— `.form-horizontal`ì„ ì¶”ê°€í•˜ì—¬ ë¼ë²¨ë“¤ê³¼ í¼ ì»¨íŠ¸ë¡¤ì„ ë¯¸ë¦¬ ì •ì˜ëœ ê·¸ë¦¬ë“œ í´ëž˜ìŠ¤ë¡œ ì¡°ì ˆì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.  
+ê·¸ë¦¬ë“œí–‰ ì—­í• ì€ `.form-group`ì´ í•˜ê¸° ë•Œë¬¸ì— `.row`ëŠ” í•„ìš”ê°€ ì—†ìŠµë‹ˆë‹¤.
 
-![¼öÆò Æû ¿¹Á¦ Å×ÀÌºí](../images/css-table-horizontal.png)
+![ìˆ˜í‰ í¼ ì˜ˆì œ í…Œì´ë¸”](../images/css-table-horizontal.png)
 
-[¿¹Á¦](http://codepen.io/luensys/pen/BjpPLv?editors=100)
+
 ```html
 <form class="form-horizontal">
   <div class="form-group">
@@ -110,20 +110,20 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </form>
 ```
 
-### Áö¿øµÇ´Â ÄÁÆ®·Ñ µé
+### ì§€ì›ë˜ëŠ” ì»¨íŠ¸ë¡¤ ë“¤
 
-#####ÀÔ·Âµé
+#####ìž…ë ¥ë“¤
 
-¾Æ·¡ÀÇ Å¸ÀÔµéÀ» ¸ðµÎ Áö¿øÇÕ´Ï´Ù.(HTML5)
+ì•„ëž˜ì˜ íƒ€ìž…ë“¤ì„ ëª¨ë‘ ì§€ì›í•©ë‹ˆë‹¤.(HTML5)
 
 `text`, `password`, `datetime`, `datetime-local`, `date`, `month`, `time`, `week`, `number`, `email`, `url`, `search`, `tel`, `color`
 
 ```
-ÀÔ·ÂÀº typeÀÌ Á¦´ë·Î ¼±¾ðµÈ °æ¿ì¿¡¸¸ ½ºÅ¸ÀÏ µË´Ï´Ù.
+ìž…ë ¥ì€ typeì´ ì œëŒ€ë¡œ ì„ ì–¸ëœ ê²½ìš°ì—ë§Œ ìŠ¤íƒ€ì¼ ë©ë‹ˆë‹¤.
 ```
 
-[¿¹Á¦](http://codepen.io/luensys/pen/EPZpdv?editors=100)
-¾Æ·¡ÀÇ ¿¹Á¦´Â typeÀ» ¹Ù²ãº¸±â À§ÇØ °£´ÜÇÏ°Ô ÀÛ¼ºÇÏ¿´½À´Ï´Ù.
+
+ì•„ëž˜ì˜ ì˜ˆì œëŠ” typeì„ ë°”ê¿”ë³´ê¸° ìœ„í•´ ê°„ë‹¨í•˜ê²Œ ìž‘ì„±í•˜ì˜€ìŠµë‹ˆë‹¤.
 
 ```html
 <input type="month" class="form-control" placeholder="Text input">
@@ -131,21 +131,21 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 
 #####TextArea
 
-¿©·¯ÁÙÀÇ ÀÔ·ÂÀ» Áö¿øÇÏ´Â Æû  
-`row`¸¦ ÀÌ¿ëÇØ¼­ ÁÙÀ» ¹Ù²Ü ¼ö ÀÖ½À´Ï´Ù.
+ì—¬ëŸ¬ì¤„ì˜ ìž…ë ¥ì„ ì§€ì›í•˜ëŠ” í¼  
+`row`ë¥¼ ì´ìš©í•´ì„œ ì¤„ì„ ë°”ê¿€ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/eJWMwJ?editors=100)
+
 ```html
 <textarea class="form-control" rows="3"></textarea>
 ```
 
-##### Ã¼Å©¹Ú½º, ¶óµð¿À
+##### ì²´í¬ë°•ìŠ¤, ë¼ë””ì˜¤
 
-`disabled` ¼Ó¼ºÀÌ ÀÖÀ» °æ¿ì¿¡´Â ÀûÀýÇÏ°Ô ½ºÅ¸ÀÏ µÉ °ÍÀÔ´Ï´Ù.
+`disabled` ì†ì„±ì´ ìžˆì„ ê²½ìš°ì—ëŠ” ì ì ˆí•˜ê²Œ ìŠ¤íƒ€ì¼ ë  ê²ƒìž…ë‹ˆë‹¤.
 
-###### ±âº»
+###### ê¸°ë³¸
 
-[¿¹Á¦](http://codepen.io/luensys/pen/jWmzjg?editors=100)
+
 ```html
 <div class="checkbox">
   <label>
@@ -180,11 +180,11 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </div>
 ```
 
-###### ÀÎ¶óÀÎ Ã¼Ã¼Å©¹Ú½º¿Í ¶óµð¿À
+###### ì¸ë¼ì¸ ì²´ì²´í¬ë°•ìŠ¤ì™€ ë¼ë””ì˜¤
 
-Ã¼Å©¹Ú½º³ª ¶óµð¿À ÄÜÆ®·ÑµéÀ» °°Àº ÁÙ¿¡ º¸ÀÌ°Ô ÇÏ·Á¸é `.checkbox-inline` ÀÌ³ª `radio-inline` Å¬·¡½º¸¦ »ç¿ëÇÏ¼¼¿ä.
+ì²´í¬ë°•ìŠ¤ë‚˜ ë¼ë””ì˜¤ ì½˜íŠ¸ë¡¤ë“¤ì„ ê°™ì€ ì¤„ì— ë³´ì´ê²Œ í•˜ë ¤ë©´ `.checkbox-inline` ì´ë‚˜ `radio-inline` í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/bEWvXJ?editors=100)
+
 ```html
 <label class="checkbox-inline">
   <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
@@ -207,12 +207,12 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </label>
 ```
 
-###### ¶óº§ ÅØ½ºÆ® ¾ø´Â Ã¼Å©¹Ú½º¿Í ¶óµð¿À
+###### ë¼ë²¨ í…ìŠ¤íŠ¸ ì—†ëŠ” ì²´í¬ë°•ìŠ¤ì™€ ë¼ë””ì˜¤
 
-ÀÔ·Â ÄÜÆ®·ÑÀÌ »ó½ÄÀûÀ¸·Î À§Ä¡ÇÑ´Ù¸é `<label>`¿¡ ÅØ½ºÆ®°¡ ÇÊ¿äÇÏÁö ¾ÊÀ» ¼ö ÀÖ½À´Ï´Ù.`ÇöÀç ÀÎ¶óÀÎÀÌ ¾Æ´Ñ Ã¼Å©¹Ú½º¿Í ¶óµð¿À¿¡¼­¸¸ µ¿ÀÛ`  
-¿©ÀüÈ÷ ¶óº§Æû¿¡´Â º¸Á¶°øÇÐÀÌ Á¦°øµÇ¾î¾ß ÇÔÀ» ±â¾ïÇÏ¼¼¿ä.(¿¹ `aria-label`)
+ìž…ë ¥ ì½˜íŠ¸ë¡¤ì´ ìƒì‹ì ìœ¼ë¡œ ìœ„ì¹˜í•œë‹¤ë©´ `<label>`ì— í…ìŠ¤íŠ¸ê°€ í•„ìš”í•˜ì§€ ì•Šì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.`í˜„ìž¬ ì¸ë¼ì¸ì´ ì•„ë‹Œ ì²´í¬ë°•ìŠ¤ì™€ ë¼ë””ì˜¤ì—ì„œë§Œ ë™ìž‘`  
+ì—¬ì „ížˆ ë¼ë²¨í¼ì—ëŠ” ë³´ì¡°ê³µí•™ì´ ì œê³µë˜ì–´ì•¼ í•¨ì„ ê¸°ì–µí•˜ì„¸ìš”.(ì˜ˆ `aria-label`)
 
-[¿¹Á¦](http://codepen.io/luensys/pen/gPWzYB?editors=100)
+
 
 ```html
 <div class="checkbox">
@@ -227,11 +227,11 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </div>
 ```
 
-###### ¼¿·ºÆ®
+###### ì…€ë ‰íŠ¸
 
-»çÆÄ¸®¿Í Å©·ÒÀÇ ¼¿·ºÆ®´Â `border-radius` ¼Ó¼ºÀ¸·Î ¼öÁ¤µÇÁö ¾Ê´Â µÕ±Ù ÄÚ³Ê¸¦ °¡Áú ¼ö ÀÖ°Ô ÇÕ´Ï´Ù.
+ì‚¬íŒŒë¦¬ì™€ í¬ë¡¬ì˜ ì…€ë ‰íŠ¸ëŠ” `border-radius` ì†ì„±ìœ¼ë¡œ ìˆ˜ì •ë˜ì§€ ì•ŠëŠ” ë‘¥ê·¼ ì½”ë„ˆë¥¼ ê°€ì§ˆ ìˆ˜ ìžˆê²Œ í•©ë‹ˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/jWmxON?editors=100)
+
 
 ```html
 <select class="form-control">
@@ -244,9 +244,9 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 
 ```
 
-±âº»ÀûÀ¸·Î ¿©·¯ ¿É¼ÇÀ» º¸¿©ÁÖ±â À§ÇØ¼­´Â ¼¿·ºÆ® ÄÁÆ®·ÑÀº `multiple` ¼Ó¼ºÀÌ ÀÖ´Ù.
+ê¸°ë³¸ì ìœ¼ë¡œ ì—¬ëŸ¬ ì˜µì…˜ì„ ë³´ì—¬ì£¼ê¸° ìœ„í•´ì„œëŠ” ì…€ë ‰íŠ¸ ì»¨íŠ¸ë¡¤ì€ `multiple` ì†ì„±ì´ ìžˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/EPmLxZ?editors=100)
+
 
 ```html
 <select multiple class="form-control">
@@ -258,11 +258,11 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </select>
 ```
 
-### Á¤Àû ÄÜÆ®·Ñ
+### ì •ì  ì½˜íŠ¸ë¡¤
 
-Æû¿¡¼­ ÅØ½ºÆ®¸¦ ³Ö°í ½ÍÀ» ¶§´Â `<p>`¿¡ `.form-control-static` Å¬·¡½º¸¦ »ç¿ëÇÕ´Ï´Ù.
+í¼ì—ì„œ í…ìŠ¤íŠ¸ë¥¼ ë„£ê³  ì‹¶ì„ ë•ŒëŠ” `<p>`ì— `.form-control-static` í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
 
-[¿¹Á¦]http://codepen.io/luensys/pen/LGymYz?editors=100)
+
 
 ```html
 <form class="form-horizontal">
@@ -295,45 +295,44 @@ form-group°ú input-groupÀ» Á÷Á¢ °°ÀÌ ¾²Áö ¸¶¼¼¿ä. ´ë½Å input-groupÀº form-group 
 </form>
 ```
 
-### Æ÷Ä¿½º »óÅÂ
+### í¬ì»¤ìŠ¤ ìƒíƒœ
 
-`:focus`¸¦ À§ÇØ ¸î ¸î ÆûÄÜÆ®·Ñµé¿¡ `box-shadow`¸¦ Àû¿ëÇß½À´Ï´Ù.
+`:focus`ë¥¼ ìœ„í•´ ëª‡ ëª‡ í¼ì½˜íŠ¸ë¡¤ë“¤ì— `box-shadow`ë¥¼ ì ìš©í–ˆìŠµë‹ˆë‹¤.
 
-![Æû Æ÷Ä¿½º](../images/css-form-focus.png)
+![í¼ í¬ì»¤ìŠ¤](../images/css-form-focus.png)
 ```
-¹®¼­ »ó¿¡¼­ ¹Ù·Î Æ÷Ä¿½ÌÀ» Ç¥ÇöÇÒ ¼ö ¾ø¾î Ä¸ÃÄµÈ ÀÌ¹ÌÁö·Î ´ëÃ¼ÇÕ´Ï´Ù.
+ë¬¸ì„œ ìƒì—ì„œ ë°”ë¡œ í¬ì»¤ì‹±ì„ í‘œí˜„í•  ìˆ˜ ì—†ì–´ ìº¡ì³ëœ ì´ë¯¸ì§€ë¡œ ëŒ€ì²´í•©ë‹ˆë‹¤.
 ```
 
-### ºñÈ°¼ºÈ­ »óÅÂ
+### ë¹„í™œì„±í™” ìƒíƒœ
 
-input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.  
-ºñÈ°¼ºÈ­µÈ ÀÔ·Â¾ç½ÄÀº Á» ´õ ¹à°Ô º¸¿©Áö°í `not-allowed` Ä¿¼­°¡ Ãß°¡µË´Ï´Ù.
+inputì—ì„œ ìƒí˜¸ìž‘ìš©ì„ ë§‰ê¸°ìœ„í•´ `disabled` ì†ì„±ì„ ì¶”ê°€í•˜ì„¸ìš”.  
+ë¹„í™œì„±í™”ëœ ìž…ë ¥ì–‘ì‹ì€ ì¢€ ë” ë°ê²Œ ë³´ì—¬ì§€ê³  `not-allowed` ì»¤ì„œê°€ ì¶”ê°€ë©ë‹ˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/WrjJvV?editors=100)
+
 
 ```html
 <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
 ```
 
-##### ºñÈ°¼ºÈ­ µÈ ÇÊµå¼Â
+##### ë¹„í™œì„±í™” ëœ í•„ë“œì…‹
 
-ÇÑ ¹ø¿¡ `<fieldset>` ³» ¸ðµç ÄÜÆ®·ÑÀ» ºñÈ°¼ºÈ­ ÇÏ·Á¸é `<fieldset>`¿¡ `disabled`¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
+í•œ ë²ˆì— `<fieldset>` ë‚´ ëª¨ë“  ì½˜íŠ¸ë¡¤ì„ ë¹„í™œì„±í™” í•˜ë ¤ë©´ `<fieldset>`ì— `disabled`ì†ì„±ì„ ì¶”ê°€í•˜ì„¸ìš”.
 
 ```
-<a> ¸µÅ© ±â´É¼º¿¡ ´ëÇÑ °æ°í
-±âº»ÀûÀ¸·Î ºñÈ°¼ºÈ­µÈ ÇÊµå¼Â¿¡´ëÇÑ ¸ðµç Æû ÄÜÆ®·ÑµéÀº ÀÌ ±â´ÉÀ» ÅëÇØ ºñÈ°¼ºÈ­ µÇ°ÚÁö¸¸,
-¸¸ÀÏ ÆûÀ» <a ... class="btn btn-*">¸¦ Æ÷ÇÔÇÏ¸é,
-ÀÌ °ÍÀº ÆûÀÌ ¾Æ´Ï¹Ç·Î Á¦´ë·Î µ¿ÀÛÇÏÁö ¾ÊÀ» ¼ö ÀÖ½À´Ï´Ù.
-ÀÌ·¯ÇÑ ¸µÅ©´Â µû·Î ¸ÂÃã ÀÚ¹Ù½ºÅ©¸³Æ®¸¦ »ç¿ëÇÏ¼¼¿ä.
+<a> ë§í¬ ê¸°ëŠ¥ì„±ì— ëŒ€í•œ ê²½ê³ 
+ê¸°ë³¸ì ìœ¼ë¡œ ë¹„í™œì„±í™”ëœ í•„ë“œì…‹ì—ëŒ€í•œ ëª¨ë“  í¼ ì½˜íŠ¸ë¡¤ë“¤ì€ ì´ ê¸°ëŠ¥ì„ í†µí•´ ë¹„í™œì„±í™” ë˜ê² ì§€ë§Œ,
+ë§Œì¼ í¼ì„ <a ... class="btn btn-*">ë¥¼ í¬í•¨í•˜ë©´,
+ì´ ê²ƒì€ í¼ì´ ì•„ë‹ˆë¯€ë¡œ ì œëŒ€ë¡œ ë™ìž‘í•˜ì§€ ì•Šì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+ì´ëŸ¬í•œ ë§í¬ëŠ” ë”°ë¡œ ë§žì¶¤ ìžë°”ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 ```
 ```
-Å©·Î½º ºê¶ó¿ìÀú È£È¯¼º
-ºÎÆ®½ºÆ®·¦Àº ÀÌ ½ºÅ¸ÀÏµéÀ» ¸ðµç ºê¶ó¿ìÀú¿¡ Àû¿ëÇÏÁö¸¸,
-ÀÎÅÍ³Ý ÀÍ½ºÇÃ·Î·¯ 11°ú ±× ÀÌÇÏ¿¡¼­´Â Áö¿øÇÏÁö ¾Ê½À´Ï´Ù.
-ÀÌ ºê¶ó¿ìÀúµéÀÇ ÇÊµå¼ÂÀ» ºñÈ°¼ºÈ­ ÇÏ·Á¸é ¸ÂÃã ÀÚ¹Ù½ºÅ©¸³Æ®¸¦ »ç¿ëÇÏ¼¼¿ä.
+í¬ë¡œìŠ¤ ë¸Œë¼ìš°ì € í˜¸í™˜ì„±
+ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì€ ì´ ìŠ¤íƒ€ì¼ë“¤ì„ ëª¨ë“  ë¸Œë¼ìš°ì €ì— ì ìš©í•˜ì§€ë§Œ,
+ì¸í„°ë„· ìµìŠ¤í”Œë¡œëŸ¬ 11ê³¼ ê·¸ ì´í•˜ì—ì„œëŠ” ì§€ì›í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+ì´ ë¸Œë¼ìš°ì €ë“¤ì˜ í•„ë“œì…‹ì„ ë¹„í™œì„±í™” í•˜ë ¤ë©´ ë§žì¶¤ ìžë°”ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©í•˜ì„¸ìš”.
 ```
 
-[¿¹Á¦](http://codepen.io/luensys/pen/WrjJQV?editors=100)
 
 ```html
 <form>
@@ -358,31 +357,29 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </form>
 ```
 
-### ÀÐ±â Àü¿ë »óÅÂ
+### ì½ê¸° ì „ìš© ìƒíƒœ
 
-ÀÔ·Â °ªÀÇ ¼öÁ¤À» ¸·±âÀ§ÇØ ÀÔ·ÂÄÜÆ®·Ñ¿¡ `readonly` ¼Ó¼ºÀ» Ãß°¡ÇÕ´Ï´Ù.  
-ÀÐ±âÀü¿ë ÀÔ·ÂÄÜÆ®·ÑÀº Á» ´õ ¹à°Ô º¸¿©Áö¸ç, Ä¿¼­´Â ±âº»Ä¿¼­·Î ³²¾ÆÀÖ½À´Ï´Ù.
+ìž…ë ¥ ê°’ì˜ ìˆ˜ì •ì„ ë§‰ê¸°ìœ„í•´ ìž…ë ¥ì½˜íŠ¸ë¡¤ì— `readonly` ì†ì„±ì„ ì¶”ê°€í•©ë‹ˆë‹¤.  
+ì½ê¸°ì „ìš© ìž…ë ¥ì½˜íŠ¸ë¡¤ì€ ì¢€ ë” ë°ê²Œ ë³´ì—¬ì§€ë©°, ì»¤ì„œëŠ” ê¸°ë³¸ì»¤ì„œë¡œ ë‚¨ì•„ìžˆìŠµë‹ˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/EPmLPm?editors=100)
 
 ```html
-<input class="form-control" type="text" placeholder="Readonly input here¡¦" readonly>
+<input class="form-control" type="text" placeholder="Readonly input hereâ€¦" readonly>
 ```
 
-##### À¯È¿ »óÅÂ
-ºÎÆ®½ºÆ®·¦Àº Æû ÄÜ·Ñ »óÀÇ ¿¡·¯, °æ°í, ¼º°ø »óÅÂ¸¦ À§ÇÑ À¯È¿»óÅÂ ½ºÅ¸ÀÏÀ» Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù.  
-»ç¿ëÇÏ·Á¸é, ºÎ¸ð ¿ä¼Ò¿¡ `has-warning`, `has-error`, `has-success` ¸¦ Ãß°¡ÇÏ¼¼¿ä.  
-±× ¿ä¼Ò¾ÈÀÇ ¸ðµç `control-label`, `.form-control`, `.help-block`Àº À¯È¿¼º ½ºÅ¸ÀÏÀ» Àû¿ë ¹Þ½À´Ï´Ù.
+##### ìœ íš¨ ìƒíƒœ
+ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì€ í¼ ì½˜ë¡¤ ìƒì˜ ì—ëŸ¬, ê²½ê³ , ì„±ê³µ ìƒíƒœë¥¼ ìœ„í•œ ìœ íš¨ìƒíƒœ ìŠ¤íƒ€ì¼ì„ í¬í•¨í•˜ê³  ìžˆìŠµë‹ˆë‹¤.  
+ì‚¬ìš©í•˜ë ¤ë©´, ë¶€ëª¨ ìš”ì†Œì— `has-warning`, `has-error`, `has-success` ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.  
+ê·¸ ìš”ì†Œì•ˆì˜ ëª¨ë“  `control-label`, `.form-control`, `.help-block`ì€ ìœ íš¨ì„± ìŠ¤íƒ€ì¼ì„ ì ìš© ë°›ìŠµë‹ˆë‹¤.
 
 ```
-º¸Á¶°øÇÐÀ¸·Î À¯È¿ »óÅÂ¸¦ Àü´ÞÇÏ±â
-Æû ÄÜÆ®·ÑÀÇ »óÅÂ¸¦ ¾Ë¸®±â À§ÇÑ °ÍÀº ½Ã°¢ÀûÀÎ Ç¥½ÃÀÏ »ÓÀÔ´Ï´Ù.  
-µû¶ó¼­ ÀÌ °æ¿ìÀÇ ´ë¾ÈÀ¸·Î´Â <label> ÅØ½ºÆ® ÀÚÃ¼¿¡ ÈùÆ®¸¦ Æ÷ÇÔÇÒ ¼ö ÀÖ½À´Ï´Ù.
-¾Æ´Ï¸é aria-dscribedby¸¦ »ç¿ëÇÏ´Â ÆûÄÜÆ®·Ñ À¯È¿»óÅÂ¿¡ °üÇÑ ÅØ½ºÆ® Á¤º¸¸¦ Ãß°¡ÀûÀÎ ¼Ó¼ºÀ¸·Î »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
-¿¡·¯ÀÇ °æ¿ì, ´ç½ÅÀÇ ÆûÄÜÆ®·Ñ¿¡ area-invalid="true"¸¦ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
+ë³´ì¡°ê³µí•™ìœ¼ë¡œ ìœ íš¨ ìƒíƒœë¥¼ ì „ë‹¬í•˜ê¸°
+í¼ ì½˜íŠ¸ë¡¤ì˜ ìƒíƒœë¥¼ ì•Œë¦¬ê¸° ìœ„í•œ ê²ƒì€ ì‹œê°ì ì¸ í‘œì‹œì¼ ë¿ìž…ë‹ˆë‹¤.  
+ë”°ë¼ì„œ ì´ ê²½ìš°ì˜ ëŒ€ì•ˆìœ¼ë¡œëŠ” <label> í…ìŠ¤íŠ¸ ìžì²´ì— ížŒíŠ¸ë¥¼ í¬í•¨í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+ì•„ë‹ˆë©´ aria-dscribedbyë¥¼ ì‚¬ìš©í•˜ëŠ” í¼ì½˜íŠ¸ë¡¤ ìœ íš¨ìƒíƒœì— ê´€í•œ í…ìŠ¤íŠ¸ ì •ë³´ë¥¼ ì¶”ê°€ì ì¸ ì†ì„±ìœ¼ë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+ì—ëŸ¬ì˜ ê²½ìš°, ë‹¹ì‹ ì˜ í¼ì½˜íŠ¸ë¡¤ì— area-invalid="true"ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 ```
 
-[¿¹Á¦](http://codepen.io/luensys/pen/yebjOe?editors=100)
 
 ```html
 <div class="form-group has-success">
@@ -423,26 +420,24 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </div>
 ```
 
-##### ¼±ÅÃÀûÀÎ ¾ÆÀÌÄÜ
+##### ì„ íƒì ì¸ ì•„ì´ì½˜
 
-´ç½ÅÀº ¶ÇÇÑ `.has-feedback`°ú ¿ìÃø ¾ÆÀÌÄÜÀÇ Ãß°¡·Î ¼±ÅÃÀûÀÎ ÇÇµå¹é ¾ÆÀÌÄÜÀ» Ãß°¡ÇÒ ¼ö ÀÖ½À´Ï´Ù.  
-´Ü, ÇÇµå¹é ¾ÆÀÌÄÜÀº ¿ÀÁ÷ ÅØ½ºÆ®¸¦ »ç¿ëÇÏ´Â `<input class="form-control"> ¿ä¼Ò¿¡¼­¸¸ ÀÛµ¿ÇÕ´Ï´Ù.
+ë‹¹ì‹ ì€ ë˜í•œ `.has-feedback`ê³¼ ìš°ì¸¡ ì•„ì´ì½˜ì˜ ì¶”ê°€ë¡œ ì„ íƒì ì¸ í”¼ë“œë°± ì•„ì´ì½˜ì„ ì¶”ê°€í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
+ë‹¨, í”¼ë“œë°± ì•„ì´ì½˜ì€ ì˜¤ì§ í…ìŠ¤íŠ¸ë¥¼ ì‚¬ìš©í•˜ëŠ” `<input class="form-control"> ìš”ì†Œì—ì„œë§Œ ìž‘ë™í•©ë‹ˆë‹¤.
 
 ```
-¾ÆÀÌÄÜ, ¶óº§, ÀÔ·Â ±×·ì
-ÇÇµå¹é ¾ÆÀÌÄÜÀÇ ¼öµ¿ À§Ä¡´Â ¶óº§ ¾ø´Â ÀÔ·ÂÄÜÆ®·Ñ°ú ¾Öµå¿ÂÀÌ ¿À¸¥ÂÊ¿¡ ÀÖ´Â input groupsÀ» À§ÇØ ÇÊ¿äÇÕ´Ï´Ù.
-´ç½ÅÀº Á¢±Ù¼º ÀÌÀ¯¸¦ À§ÇØ ¸ðµç ÀÔ·Â ÄÜÆ®·ÑÀ» À§ÇÑ ¶óº§À» Á¦°øÇÏ´Â °ÍÀ» °­·ÂÇÏ°Ô Àå·ÁÇØ¾ß ÇÕ´Ï´Ù.
-¸¸¾à ´ç½ÅÀÌ ¶óº§ ¾øÀÌ ÇÑ´Ù¸é, ÇÇµå¹é¾ÆÀÌÄÜÀÇ top°ªÀº Á¶Á¤ÇÕ´Ï´Ù.
-ÀÔ·Â ±×·ìÀ» À§ÇØ, ´ç½ÅÀÇ ¾Öµå¿ÂÀÇ ³Êºñ¸¦ °í·ÁÇÏ¿© ÀûÀýÇÑ ÇÈ¼¿°ªÀ¸·Î right°ªÀ» Á¶Á¤ÇÏ¼¼¿ä.
+ì•„ì´ì½˜, ë¼ë²¨, ìž…ë ¥ ê·¸ë£¹
+í”¼ë“œë°± ì•„ì´ì½˜ì˜ ìˆ˜ë™ ìœ„ì¹˜ëŠ” ë¼ë²¨ ì—†ëŠ” ìž…ë ¥ì½˜íŠ¸ë¡¤ê³¼ ì• ë“œì˜¨ì´ ì˜¤ë¥¸ìª½ì— ìžˆëŠ” input groupsì„ ìœ„í•´ í•„ìš”í•©ë‹ˆë‹¤.
+ë‹¹ì‹ ì€ ì ‘ê·¼ì„± ì´ìœ ë¥¼ ìœ„í•´ ëª¨ë“  ìž…ë ¥ ì½˜íŠ¸ë¡¤ì„ ìœ„í•œ ë¼ë²¨ì„ ì œê³µí•˜ëŠ” ê²ƒì„ ê°•ë ¥í•˜ê²Œ ìž¥ë ¤í•´ì•¼ í•©ë‹ˆë‹¤.
+ë§Œì•½ ë‹¹ì‹ ì´ ë¼ë²¨ ì—†ì´ í•œë‹¤ë©´, í”¼ë“œë°±ì•„ì´ì½˜ì˜ topê°’ì€ ì¡°ì •í•©ë‹ˆë‹¤.
+ìž…ë ¥ ê·¸ë£¹ì„ ìœ„í•´, ë‹¹ì‹ ì˜ ì• ë“œì˜¨ì˜ ë„ˆë¹„ë¥¼ ê³ ë ¤í•˜ì—¬ ì ì ˆí•œ í”½ì…€ê°’ìœ¼ë¡œ rightê°’ì„ ì¡°ì •í•˜ì„¸ìš”.
 ```
 ```
-º¸Á¶°øÇÐ¿¡ ¾ÆÀÌÄÜÀÇ ÀÇ¹Ì¸¦ Àü´ÞÇÏ´Â °Í
-½ºÅ©¸° ¸®´õ°°Àº º¸Á¶ °øÇÐ¿¡°Ô ¾ÆÀÌÄÜÀÇ ÀÇ¹Ì¸¦ È®½ÇÇÏ°Ô Àü´ÞÇÏ·Á¸é, .sr-only Å¬·¡½º·Î Ãß°¡ÀûÀÎ ¼û°ÜÁø ÅØ½ºÆ®¸¦ Æ÷ÇÔÇÏ°Å³ª, aria-describedby¸¦ »ç¿ëÇÏ¿© Æû ÄÜÆ®·Ñ°ú ¿¬°üµÇ¾î ÀÖ¾î¾ß ÇÕ´Ï´Ù.
-±×·¸Áö ¾ÊÀ¸¸é ÆûÄÜÆ®·Ñ¿¡ ¿¬°áµÈ <label>ÀÇ ÅØ½ºÆ®¸¦ ¹Ù²Ù´Â °ÍÃ³·³ ´Ù¸¥ ¹æ¹ýÀ» »ç¿ëÇØ¾ß ÇÕ´Ï´Ù.
-¾Æ·¡ÀÇ ¿¹Á¦¿¡¼­ È®ÀÎÇÒ ¼ö ÀÖ½À´Ï´Ù.
+ë³´ì¡°ê³µí•™ì— ì•„ì´ì½˜ì˜ ì˜ë¯¸ë¥¼ ì „ë‹¬í•˜ëŠ” ê²ƒ
+ìŠ¤í¬ë¦° ë¦¬ë”ê°™ì€ ë³´ì¡° ê³µí•™ì—ê²Œ ì•„ì´ì½˜ì˜ ì˜ë¯¸ë¥¼ í™•ì‹¤í•˜ê²Œ ì „ë‹¬í•˜ë ¤ë©´, .sr-only í´ëž˜ìŠ¤ë¡œ ì¶”ê°€ì ì¸ ìˆ¨ê²¨ì§„ í…ìŠ¤íŠ¸ë¥¼ í¬í•¨í•˜ê±°ë‚˜, aria-describedbyë¥¼ ì‚¬ìš©í•˜ì—¬ í¼ ì½˜íŠ¸ë¡¤ê³¼ ì—°ê´€ë˜ì–´ ìžˆì–´ì•¼ í•©ë‹ˆë‹¤.
+ê·¸ë ‡ì§€ ì•Šìœ¼ë©´ í¼ì½˜íŠ¸ë¡¤ì— ì—°ê²°ëœ <label>ì˜ í…ìŠ¤íŠ¸ë¥¼ ë°”ê¾¸ëŠ” ê²ƒì²˜ëŸ¼ ë‹¤ë¥¸ ë°©ë²•ì„ ì‚¬ìš©í•´ì•¼ í•©ë‹ˆë‹¤.
+ì•„ëž˜ì˜ ì˜ˆì œì—ì„œ í™•ì¸í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 ```
-
-[¿¹Á¦](http://codepen.io/luensys/pen/EPmLym?editors=100)
 
 ```html
 <div class="form-group has-success has-feedback">
@@ -474,11 +469,11 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </div>
 ```
 
-###### ¼öÆòÆû°ú ÀÎ¶óÀÎÆû¿¡¼­ º¸Á¶ ¾ÆÀÌÄÜ
+###### ìˆ˜í‰í¼ê³¼ ì¸ë¼ì¸í¼ì—ì„œ ë³´ì¡° ì•„ì´ì½˜
 
-¾Æ·¡ÀÇ ¿¹Á¦´Â ¼öÆòÆû¿¡¼­¿Í ÀÎ¶óÀÎÆû¿¡¼­ º¸Á¶¾ÆÀÌÄÜÀÌ ¾î¶»°Ô Ç¥½ÃµÇ´ÂÁö¸¦ º¸¿©ÁÖ´Â ¿¹½ÃÀÔ´Ï´Ù.
+ì•„ëž˜ì˜ ì˜ˆì œëŠ” ìˆ˜í‰í¼ì—ì„œì™€ ì¸ë¼ì¸í¼ì—ì„œ ë³´ì¡°ì•„ì´ì½˜ì´ ì–´ë–»ê²Œ í‘œì‹œë˜ëŠ”ì§€ë¥¼ ë³´ì—¬ì£¼ëŠ” ì˜ˆì‹œìž…ë‹ˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/BjRxzE?editors=100)
+[ì˜ˆì œ](http://codepen.io/luensys/pen/BjRxzE?editors=100)
 
 ```html
 <form class="form-horizontal">
@@ -525,11 +520,10 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </form>
 ```
 
-###### ¼û°ÜÁø `.sr-only` ¶óº§°ú º¸Á¶ ¾ÆÀÌÄÜ
-¸¸¾à ÆûÄÜÆ®·ÑÀÇ `<lable>`À» ¼û±â±âÀ§ÇØ `.sr-only` Å¬·¡½º¸¦ »ç¿ëÇÑ´Ù¸é, ºÎÆ®½ºÆ®·¦Àº ÀÚµ¿À¸·Î ¾ÆÀÌÄÜÀÇ À§Ä¡¸¦ Á¶Á¤ÇÕ´Ï´Ù.  
-(aria-label ¼Ó¼º°°Àº ´Ù¸¥ ¶óº§¸µ ´ë¾ÈÀ» »ç¿ëÇÏÁö ¾Ê°í)
+###### ìˆ¨ê²¨ì§„ `.sr-only` ë¼ë²¨ê³¼ ë³´ì¡° ì•„ì´ì½˜
+ë§Œì•½ í¼ì½˜íŠ¸ë¡¤ì˜ `<lable>`ì„ ìˆ¨ê¸°ê¸°ìœ„í•´ `.sr-only` í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•œë‹¤ë©´, ë¶€íŠ¸ìŠ¤íŠ¸ëž©ì€ ìžë™ìœ¼ë¡œ ì•„ì´ì½˜ì˜ ìœ„ì¹˜ë¥¼ ì¡°ì •í•©ë‹ˆë‹¤.  
+(aria-label ì†ì„±ê°™ì€ ë‹¤ë¥¸ ë¼ë²¨ë§ ëŒ€ì•ˆì„ ì‚¬ìš©í•˜ì§€ ì•Šê³ )
 
-[¿¹Á¦](http://codepen.io/luensys/pen/adWGmy?editors=100)
 
 ```html
 <div class="form-group has-success has-feedback">
@@ -549,15 +543,14 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </div>
 ```
 
-### Æû ÄÜÆ®·Ñ Å©±â Á¶Àý
+### í¼ ì½˜íŠ¸ë¡¤ í¬ê¸° ì¡°ì ˆ
 
-`.input-lg` °°Àº Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ³ôÀÌ¸¦ ¼³Á¤ÇÏ¼¼¿ä. ±×¸®°í `.col-lg=*` °°Àº ±×¸®µå ¿­ Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ³Êºñ¸¦ ¼³Á¤ÇÏ¼¼¿ä.
+`.input-lg` ê°™ì€ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ë†’ì´ë¥¼ ì„¤ì •í•˜ì„¸ìš”. ê·¸ë¦¬ê³  `.col-lg=*` ê°™ì€ ê·¸ë¦¬ë“œ ì—´ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ë„ˆë¹„ë¥¼ ì„¤ì •í•˜ì„¸ìš”.
 
-##### ³ôÀÌ Á¶Àý
+##### ë†’ì´ ì¡°ì ˆ
 
-Æû ÄÜÆ®·ÑÀ» ¹öÆ° Å©±â¿¡ ¸ÂÃç Å©°Å³ª ÀÛ°Ô ¸¸µå¼¼¿ä.
+í¼ ì½˜íŠ¸ë¡¤ì„ ë²„íŠ¼ í¬ê¸°ì— ë§žì¶° í¬ê±°ë‚˜ ìž‘ê²Œ ë§Œë“œì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/jWmxVP?editors=100)
 
 ```html
 <input class="form-control input-lg" type="text" placeholder=".input-lg">
@@ -575,11 +568,10 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </select>
 ```
 
-##### ¼öÆòÆû ±×·ì Å©±â Á¶Àý
+##### ìˆ˜í‰í¼ ê·¸ë£¹ í¬ê¸° ì¡°ì ˆ
 
-`.form-horizontal`¾ÈÀÇ ¶óº§°ú ÆûÄÜÆ®·ÑÀ» °£ÆíÇÏ°Ô `.form-group-lg`³ª `.form-group-sm`À¸·Î Å©±âÁ¶Àý ÇÏ¼¼¿ä.
+`.form-horizontal`ì•ˆì˜ ë¼ë²¨ê³¼ í¼ì½˜íŠ¸ë¡¤ì„ ê°„íŽ¸í•˜ê²Œ `.form-group-lg`ë‚˜ `.form-group-sm`ìœ¼ë¡œ í¬ê¸°ì¡°ì ˆ í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/wMdjoL?editors=100)
 
 ```html
 <form class="form-horizontal">
@@ -598,11 +590,10 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </form>
 ```
 
-##### ¿­ Å©±â Á¶Àý
+##### ì—´ í¬ê¸° ì¡°ì ˆ
 
-ÀÔ·ÂÄÜÆ®·ÑÀ» ±×¸®µå ¿­ÀÌ³ª °£´ÜÈ÷ ¿øÇÏ´Â ³Êºñ·Î ¸ÂÃçÁÖ´Â ¸ÂÃã ºÎ¸ð ¿ä¼Ò·Î °¨½Î¼¼¿ä.
+ìž…ë ¥ì½˜íŠ¸ë¡¤ì„ ê·¸ë¦¬ë“œ ì—´ì´ë‚˜ ê°„ë‹¨ížˆ ì›í•˜ëŠ” ë„ˆë¹„ë¡œ ë§žì¶°ì£¼ëŠ” ë§žì¶¤ ë¶€ëª¨ ìš”ì†Œë¡œ ê°ì‹¸ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/XXRqpM?editors=100)
 
 ```html
 <div class="row">
@@ -618,17 +609,16 @@ input¿¡¼­ »óÈ£ÀÛ¿ëÀ» ¸·±âÀ§ÇØ `disabled` ¼Ó¼ºÀ» Ãß°¡ÇÏ¼¼¿ä.
 </div>
 ```
 
-### µµ¿ò¸»
+### ë„ì›€ë§
 
-Æû ÄÜÆ®·ÑÀ» À§ÇÑ ºí·Ï ·¹º§ µµ¿ò¸».
+í¼ ì½˜íŠ¸ë¡¤ì„ ìœ„í•œ ë¸”ë¡ ë ˆë²¨ ë„ì›€ë§.
 
 ```
-ÆûÄÜÆ®·Ñ°ú µµ¿ò¸»À» ¿¬°èÇÏ±â
-µµ¿ò¸»Àº ¸íÈ®ÇÏ°Ô aria-describedby ¸¦ »ç¿ëÇÏ¿© ÆûÄÜÆ®·Ñ°ú ¿¬°èµÇ¾î¾ß ÇÕ´Ï´Ù.  
-ÀÌ°ÍÀº º¸Á¶ °øÇÐ ¤¡ÀÌ ÄÜÆ®·Ñ¿¡ Æ÷Ä¿½º µÇ°Å³ª µé¾î¿ÔÀ» ¶§ µµ¿ò¸»À» ¾Ë·ÁÁÝ´Ï´Ù.
+í¼ì½˜íŠ¸ë¡¤ê³¼ ë„ì›€ë§ì„ ì—°ê³„í•˜ê¸°
+ë„ì›€ë§ì€ ëª…í™•í•˜ê²Œ aria-describedby ë¥¼ ì‚¬ìš©í•˜ì—¬ í¼ì½˜íŠ¸ë¡¤ê³¼ ì—°ê³„ë˜ì–´ì•¼ í•©ë‹ˆë‹¤.  
+ì´ê²ƒì€ ë³´ì¡° ê³µí•™ ã„±ì´ ì½˜íŠ¸ë¡¤ì— í¬ì»¤ìŠ¤ ë˜ê±°ë‚˜ ë“¤ì–´ì™”ì„ ë•Œ ë„ì›€ë§ì„ ì•Œë ¤ì¤ë‹ˆë‹¤.
 ```
 
-[¿¹Á¦](http://codepen.io/luensys/pen/VebxPd?editors=100)
 
 ```html
 <label class="sr-only" for="inputHelpBlock">Input with help text</label>
