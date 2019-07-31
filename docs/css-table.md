@@ -1,11 +1,10 @@
 # Table
 
 
-### ±âº» ¿¹Á¦
+### ê¸°ë³¸ ì˜ˆì œ
 
-`<table>`¿¡ ¾à°£ÀÇ ÆÐµù°ú ¼öÆò ±¸ºÐ ¼±À» ÁÖ±â À§ÇØ¼­ °¡Àå ±âº» ½ºÅ¸ÀÏÀÎ `.table`À» »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
+`<table>`ì— ì•½ê°„ì˜ íŒ¨ë”©ê³¼ ìˆ˜í‰ êµ¬ë¶„ ì„ ì„ ì£¼ê¸° ìœ„í•´ì„œ ê°€ìž¥ ê¸°ë³¸ ìŠ¤íƒ€ì¼ì¸ `.table`ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/NxNLXO)
 ```html
 <table class="table">
   <thead>
@@ -39,14 +38,13 @@
 </table>
 ```
 
-### ÁÙ¹«´Ì Çà
+### ì¤„ë¬´ëŠ¬ í–‰
 
-ÁÙºÎ´Ì¸¦ Ãß°¡ÇÏ±â À§ÇØ¼­´Â(°¢ Çàº°·Î ±¸ºÐÇÏ±â À§ÇØ) `<tbody`¿¡ `.table-striped`¸¦ Ãß°¡ÇÏ¼¼¿ä.
+ì¤„ë¶€ëŠ¬ë¥¼ ì¶”ê°€í•˜ê¸° ìœ„í•´ì„œëŠ”(ê° í–‰ë³„ë¡œ êµ¬ë¶„í•˜ê¸° ìœ„í•´) `<tbody`ì— `.table-striped`ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 ```
-ÁÖÀÇ! CSSÀÇ :nth-child ¼Ó¼ºÀ¸·Î ¸¸µé¾îÁö±â ¶§¹®¿¡ IE8¿¡¼­´Â µ¿ÀÛÇÏÁö ¾Ê½À´Ï´Ù.
+ì£¼ì˜! CSSì˜ :nth-child ì†ì„±ìœ¼ë¡œ ë§Œë“¤ì–´ì§€ê¸° ë•Œë¬¸ì— IE8ì—ì„œëŠ” ë™ìž‘í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 ```
 
-[¿¹Á¦](http://codepen.io/luensys/pen/wMGEyx)
 ```html
 <table class="table table-striped">
   <thead>
@@ -80,11 +78,10 @@
 </table>
 ```
 
-### ¼±ÀÌ ÀÖ´Â Å×ÀÌºí
+### ì„ ì´ ìžˆëŠ” í…Œì´ë¸”
 
-Å×ÀÌºíÀÇ Å×µÎ¸®¿Í ¼¿¿¡ ÁÙÀ» ³Ö±â À§ÇØ¼­ `.table-bordered`¸¦ Ãß°¡ÇÏ¼¼¿ä.
+í…Œì´ë¸”ì˜ í…Œë‘ë¦¬ì™€ ì…€ì— ì¤„ì„ ë„£ê¸° ìœ„í•´ì„œ `.table-bordered`ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/obxPdZ)
 ```html
 <table class="table table-bordered">
   <thead>
@@ -118,11 +115,10 @@
 </table>
 ```
 
-### Hover Çà
+### Hover í–‰
 
-`<tbody>` ¾ÈÀÇ Å×ÀÌºí ÇàµéÀÇ Hover »óÅÂ¸¦ È°¼ºÈ­ÇÏ·Á¸é `.table-hover`¸¦ Ãß°¡ÇØÁÖ¼¼¿ä.
+`<tbody>` ì•ˆì˜ í…Œì´ë¸” í–‰ë“¤ì˜ Hover ìƒíƒœë¥¼ í™œì„±í™”í•˜ë ¤ë©´ `.table-hover`ë¥¼ ì¶”ê°€í•´ì£¼ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/bEpxMm)
 ```html
 <table class="table table-hover">
   <thead>
@@ -156,11 +152,10 @@
 </table>
 ```
 
-### Á¼Àº Æø Å×ÀÌºí
+### ì¢ì€ í­ í…Œì´ë¸”
 
-¼¿ ÆÐµùÀ» ¹ÝÀ¸·Î ÁÙ¿©¼­ Á» ´õ ÄÞÆÑÆ® ÇÏ°Ô Å×ÀÌºíÀ» ¸¸µé±â À§ÇØ¼­´Â `.table-condensed`¸¦ Ãß°¡ÇÏ¼¼¿ä.
+ì…€ íŒ¨ë”©ì„ ë°˜ìœ¼ë¡œ ì¤„ì—¬ì„œ ì¢€ ë” ì½¤íŒ©íŠ¸ í•˜ê²Œ í…Œì´ë¸”ì„ ë§Œë“¤ê¸° ìœ„í•´ì„œëŠ” `.table-condensed`ë¥¼ ì¶”ê°€í•˜ì„¸ìš”.
 
-[¿¹Á¦](http://codepen.io/luensys/pen/vLGzre)
 ```html
 <table class="table table-condensed">
   <thead>
@@ -194,19 +189,18 @@
 </table>
 ```
 
-### ¸Æ¶ôÀûÀÎ Å¬·¡½ºµé
+### ë§¥ë½ì ì¸ í´ëž˜ìŠ¤ë“¤
 
-Å×ÀÌºí 'Çà'ÀÌ³ª '¼¿'¿¡ »öÀ» ³ÖÀ¸·Á¸é ¾Æ·¡ÀÇ Å¬·¡½ºµéÀ» »ç¿ëÇÏ¼¼¿ä.
+í…Œì´ë¸” 'í–‰'ì´ë‚˜ 'ì…€'ì— ìƒ‰ì„ ë„£ìœ¼ë ¤ë©´ ì•„ëž˜ì˜ í´ëž˜ìŠ¤ë“¤ì„ ì‚¬ìš©í•˜ì„¸ìš”.
 
-| Å¬·¡½º | ¼³¸í |
+| í´ëž˜ìŠ¤ | ì„¤ëª… |
 |---|---|
-|`.active`|Æ¯Á¤ÇÑ ÇàÀÌ³ª ¼¿¿¡ hover ÇßÀ» ¶§¿Í °°Àº »öÀ» ÀÔÈü´Ï´Ù.|
-|`.success`|¼º°øÀûÀÌ°Å³ª ±àÁ¤ÀûÀÎ ¾×¼ÇÀ» ÀÇ¹ÌÇÕ´Ï´Ù.|
-|`.info`|Áß¸³ÀûÀÎ Á¤º¸ÀÇ º¯È­³ª ¾×¼ÇÀ» ÀÇ¹ÌÇÕ´Ï´Ù.|
-|`.warning`|ÁÖÀÇ°¡ ÇÊ¿äÇÑ °æ°í¸¦ ÀÇ¹ÌÇÕ´Ï´Ù.|
-|`.danger`|À§ÇèÇÏ°Å³ª ºÎÁ¤ÀûÀÏ ¼ö ÀÖ´Â ¾×¼ÇÀ» ÀÇ¹ÌÇÕ´Ï´Ù.|
+|`.active`|íŠ¹ì •í•œ í–‰ì´ë‚˜ ì…€ì— hover í–ˆì„ ë•Œì™€ ê°™ì€ ìƒ‰ì„ ìž…íž™ë‹ˆë‹¤.|
+|`.success`|ì„±ê³µì ì´ê±°ë‚˜ ê¸ì •ì ì¸ ì•¡ì…˜ì„ ì˜ë¯¸í•©ë‹ˆë‹¤.|
+|`.info`|ì¤‘ë¦½ì ì¸ ì •ë³´ì˜ ë³€í™”ë‚˜ ì•¡ì…˜ì„ ì˜ë¯¸í•©ë‹ˆë‹¤.|
+|`.warning`|ì£¼ì˜ê°€ í•„ìš”í•œ ê²½ê³ ë¥¼ ì˜ë¯¸í•©ë‹ˆë‹¤.|
+|`.danger`|ìœ„í—˜í•˜ê±°ë‚˜ ë¶€ì •ì ì¼ ìˆ˜ ìžˆëŠ” ì•¡ì…˜ì„ ì˜ë¯¸í•©ë‹ˆë‹¤.|
 
-[¿¹Á¦](http://codepen.io/luensys/pen/KVzxBL)
 ```html
 <table class="table">
   <thead>
@@ -246,23 +240,22 @@
 </table>
 ```
 
-### ¹ÝÀÀÇü Å×ÀÌºí
+### ë°˜ì‘í˜• í…Œì´ë¸”
 
-`.table`À» `.table-responsive`·Î °¨½Î¼­ ÀÛÀº±â±â¿¡¼­´Â ¼öÆò ½ºÅ©·ÑÀÌ »ý±âµµ·Ï ÇÏ´Â Å×ÀÌºíÀ» ¸¸µì´Ï´Ù.
-»çÀÌÁî´Â 768px ÀÌÇÏÀÔ´Ï´Ù.
+`.table`ì„ `.table-responsive`ë¡œ ê°ì‹¸ì„œ ìž‘ì€ê¸°ê¸°ì—ì„œëŠ” ìˆ˜í‰ ìŠ¤í¬ë¡¤ì´ ìƒê¸°ë„ë¡ í•˜ëŠ” í…Œì´ë¸”ì„ ë§Œë“­ë‹ˆë‹¤.
+ì‚¬ì´ì¦ˆëŠ” 768px ì´í•˜ìž…ë‹ˆë‹¤.
 
 ```
-¼öÁ÷ Àß¶ó³»±â / Àý»è
-¹ÝÀÀÇü Å×ÀÌºíÀº ¼¼·Î »çÀÌÁî¸¦ ÃÊ°úÇÒ ¶§ ³ª¿À´Â ½ºÅ©·ÑÀ» ¾ø¾ÖÁÖ´Â overflow-y: hiddenÀ» ÀÌ¿ëÇÕ´Ï´Ù.
-ÀÌ°ÍÀº µå·Ó´Ù¿î ¸Þ´º¿Í ´Ù¸¥ ¼­µåÆÄÆ¼ À§Á¬À» ¾ø¾Ö¹ö¸± ¼ö ÀÖ½À´Ï´Ù.
+ìˆ˜ì§ ìž˜ë¼ë‚´ê¸° / ì ˆì‚­
+ë°˜ì‘í˜• í…Œì´ë¸”ì€ ì„¸ë¡œ ì‚¬ì´ì¦ˆë¥¼ ì´ˆê³¼í•  ë•Œ ë‚˜ì˜¤ëŠ” ìŠ¤í¬ë¡¤ì„ ì—†ì• ì£¼ëŠ” overflow-y: hiddenì„ ì´ìš©í•©ë‹ˆë‹¤.
+ì´ê²ƒì€ ë“œë¡­ë‹¤ìš´ ë©”ë‰´ì™€ ë‹¤ë¥¸ ì„œë“œíŒŒí‹° ìœ„ì ¯ì„ ì—†ì• ë²„ë¦´ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 ```
 ```
-ÆÄÀÌ¾îÆø½º¿Í ÇÊµå¼Â
-ÆÄÀÌ¾îÆø½º´Â ¹ÝÀÀÇü Å×ÀÌºí¿¡ °£¼·ÇÏ´Â width °ü·Ã ¸î °¡Áö ÀÌ»óÇÑ ÇÊµå¼Â ½ºÅ¸ÀÏÀ» °¡Áö°í ÀÖ¾î,
-ÆÄÀÌ¾îÆø½º Àü¿ëÇÙ ¾øÀÌ´Â »ç¿ëÇÒ ¼ö°¡ ¾ø½À´Ï´Ù.
+íŒŒì´ì–´í­ìŠ¤ì™€ í•„ë“œì…‹
+íŒŒì´ì–´í­ìŠ¤ëŠ” ë°˜ì‘í˜• í…Œì´ë¸”ì— ê°„ì„­í•˜ëŠ” width ê´€ë ¨ ëª‡ ê°€ì§€ ì´ìƒí•œ í•„ë“œì…‹ ìŠ¤íƒ€ì¼ì„ ê°€ì§€ê³  ìžˆì–´,
+íŒŒì´ì–´í­ìŠ¤ ì „ìš©í•µ ì—†ì´ëŠ” ì‚¬ìš©í•  ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.
 ```
 
-[¿¹Á¦](http://codepen.io/luensys/pen/yeOxGB)
 ```html
 <div class="table-responsive">
   <table class="table">
