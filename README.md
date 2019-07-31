@@ -3,78 +3,78 @@
 
 
 
-## Bootstrap ·¹ÆÛ·±½º Á¤¸®
+## Bootstrap ë ˆí¼ëŸ°ìŠ¤ ì •ë¦¬
 
-*grunt¿Í less Sass¸¦ È°¿ëÇÑ ºÎÆ®½ºÆ®·¦ÀÇ »ç¿ë°ú ¿¹Á¦ µîÀº ´ÙÀ½ ¿¹Á¦»çÀÌÆ® ÁøÇà½Ã¿¡ Á¤¸®ÇÒ °èÈ¹ÀÔ´Ï´Ù.(¾ÆÁ÷¹ÌÁ¤-ÇùÀÇÇÊ¿ä)*
+*gruntì™€ less Sassë¥¼ í™œìš©í•œ ë¶€íŠ¸ìŠ¤íŠ¸ë©ì˜ ì‚¬ìš©ê³¼ ì˜ˆì œ ë“±ì€ ë‹¤ìŒ ì˜ˆì œì‚¬ì´íŠ¸ ì§„í–‰ì‹œì— ì •ë¦¬í•  ê³„íš
 
-- Bootstrap ½ÃÀÛÇÏ±â(¼¼ÆÃ)   
-    - ½ÃÀÛÇÏ±â [bootstrap-start](docs/bootstrap-start.md)  
-    - ´Ù¿î·Îµå [start-download](#)  
-    - »ìÆìº¸±â [start-whats-included](#)  
-    - ±×·±Æ® [start-grunt](docs/start-grunt.md)  
-    - ±âº» ÅÛÇÃ¸´ [start-template](docs/start-template.md)  
-    - ¿¹Á¦ [start-example](docs/start-example.md)  
-    - ¹İÀÀ¼º ²ô±â [start-disable-responsive](#)  
-    - ¼­µåÆÄÆ¼ Áö¿ø [start-third-parties](#)  
-    - Á¢±Ù¼º [start-accessibility](#)  
+- Bootstrap ì‹œì‘í•˜ê¸°(ì„¸íŒ…)   
+    - ì‹œì‘í•˜ê¸° [bootstrap-start](docs/bootstrap-start.md)  
+    - ë‹¤ìš´ë¡œë“œ [start-download](#)  
+    - ì‚´í´ë³´ê¸° [start-whats-included](#)  
+    - ê·¸ëŸ°íŠ¸ [start-grunt](docs/start-grunt.md)  
+    - ê¸°ë³¸ í…œí”Œë¦¿ [start-template](docs/start-template.md)  
+    - ì˜ˆì œ [start-example](docs/start-example.md)  
+    - ë°˜ì‘ì„± ë„ê¸° [start-disable-responsive](#)  
+    - ì„œë“œíŒŒí‹° ì§€ì› [start-third-parties](#)  
+    - ì ‘ê·¼ì„± [start-accessibility](#)  
 
 - Bootstrap CSS    
-    - °³¿ä [css-overview](#)  
-    - ±×¸®µå ½Ã½ºÅÛ [css-grid](docs/css-grid.md)  
-    - Å¸ÀÌÆ÷±×·¡ÇÇ [css-container](docs/css-container.md)  
-    - ÄÚµå [css-code](#)  
-    - Å×ÀÌºí [css-table](docs/css-table.md)  
-    - Æû [css-form](docs/css-form.md)  
-    - ¹öÆ° [css-button](docs/css-button.md)  
-    - ÀÌ¹ÌÁö [css-images](docs/css-images.md)  
-    - µµ¿ò Å¬·¡½º [css-helper-classes](docs/css-helper-classes.md)  
-    - ¹İÀÀÇü À¯Æ¿¸®Æ¼ [css-responsive-utilities](docs/css-responsive-utilities.md)  
-    - Less »ç¿ëÇÏ±â [css-less](docs/css-less.md)  
-    - Sass »ç¿ëÇÏ±â [css-sass](docs/css-sass.md)
+    - ê°œìš” [css-overview](#)  
+    - ê·¸ë¦¬ë“œ ì‹œìŠ¤í…œ [css-grid](docs/css-grid.md)  
+    - íƒ€ì´í¬ê·¸ë˜í”¼ [css-container](docs/css-container.md)  
+    - ì½”ë“œ [css-code](#)  
+    - í…Œì´ë¸” [css-table](docs/css-table.md)  
+    - í¼ [css-form](docs/css-form.md)  
+    - ë²„íŠ¼ [css-button](docs/css-button.md)  
+    - ì´ë¯¸ì§€ [css-images](docs/css-images.md)  
+    - ë„ì›€ í´ë˜ìŠ¤ [css-helper-classes](docs/css-helper-classes.md)  
+    - ë°˜ì‘í˜• ìœ í‹¸ë¦¬í‹° [css-responsive-utilities](docs/css-responsive-utilities.md)  
+    - Less ì‚¬ìš©í•˜ê¸° [css-less](docs/css-less.md)  
+    - Sass ì‚¬ìš©í•˜ê¸° [css-sass](docs/css-sass.md)
 
 - Bootstrap component   
-    - ¾ÆÀÌÄÜ [Glyphicons](docs/component_01_glyphicons.md)
-    - µå·Ó´Ù¿î [Dropdowns](docs/component_02_dropdowns.md)
-    - ¹öÆ° ±×·ì [Button groups](docs/component_03_button.md)
-    - ¹öÆ° µå·Ó´Ù¿î [Button dropdowns](docs/component_04_button_dropdown.md) 
-    - ÀÔ·Â ±×·ì [Input groups](docs/component_05_input_groups.md)
-    - ³×ºñ°ÔÀÌ¼Ç [Navs](docs/component_06_navs.md)
-    - ³×ºñ°ÔÀÌ¼Ç ¹Ù [Navbar](docs/component_07_navbar.md)
-    - »çÀÌÆ® ÀÌµ¿°æ·Î [Breadcrumbs](docs/component_08_breadcrumbs.md)
-    - ÆäÀÌÁö³×ÀÌ¼Ç [Pagination](docs/component_09_pagination.md)
-    - ¶óº§ [Labels](docs/component_10_labels.md)
-    - ¹èÁö [Badges](docs/component_11_badges.md)
-    - Á¡º¸Æ®·Ğ [Jumbotron](docs/component_12_jumbotron.md)
-    - ÆäÀÌÁö Á¦¸ñ [Page header](docs/component_13_page_header.md)
-    - ½æ³×ÀÏ [Thumbnails](docs/component_14_thumbnails.md)
-    - °æº¸ [Alerts](docs/component_15_alerts.md)
-    - ÇÁ·Î±×·¡½º¹Ù [Progress bars](docs/component_16_progress_bars.md)
-    - ¹Ìµğ¾î °´Ã¼ [Media object](docs/component_17_media_object.md)
-    - ¸ñ·Ï ±×·ì [List group](docs/component_18_list_group.md) 
-    - ÆĞ³Î [Panels](docs/component_19_panelmark.md) 
-    - ¹İÀÀ¼º ÀÓº£µå [Responsive embed](docs/component_20_responsive_embed.md)
-    - À£ [Wells](docs/component_21_wells.md)
+    - ì•„ì´ì½˜ [Glyphicons](docs/component_01_glyphicons.md)
+    - ë“œë¡­ë‹¤ìš´ [Dropdowns](docs/component_02_dropdowns.md)
+    - ë²„íŠ¼ ê·¸ë£¹ [Button groups](docs/component_03_button.md)
+    - ë²„íŠ¼ ë“œë¡­ë‹¤ìš´ [Button dropdowns](docs/component_04_button_dropdown.md) 
+    - ì…ë ¥ ê·¸ë£¹ [Input groups](docs/component_05_input_groups.md)
+    - ë„¤ë¹„ê²Œì´ì…˜ [Navs](docs/component_06_navs.md)
+    - ë„¤ë¹„ê²Œì´ì…˜ ë°” [Navbar](docs/component_07_navbar.md)
+    - ì‚¬ì´íŠ¸ ì´ë™ê²½ë¡œ [Breadcrumbs](docs/component_08_breadcrumbs.md)
+    - í˜ì´ì§€ë„¤ì´ì…˜ [Pagination](docs/component_09_pagination.md)
+    - ë¼ë²¨ [Labels](docs/component_10_labels.md)
+    - ë°°ì§€ [Badges](docs/component_11_badges.md)
+    - ì ë³´íŠ¸ë¡  [Jumbotron](docs/component_12_jumbotron.md)
+    - í˜ì´ì§€ ì œëª© [Page header](docs/component_13_page_header.md)
+    - ì¸ë„¤ì¼ [Thumbnails](docs/component_14_thumbnails.md)
+    - ê²½ë³´ [Alerts](docs/component_15_alerts.md)
+    - í”„ë¡œê·¸ë˜ìŠ¤ë°” [Progress bars](docs/component_16_progress_bars.md)
+    - ë¯¸ë””ì–´ ê°ì²´ [Media object](docs/component_17_media_object.md)
+    - ëª©ë¡ ê·¸ë£¹ [List group](docs/component_18_list_group.md) 
+    - íŒ¨ë„ [Panels](docs/component_19_panelmark.md) 
+    - ë°˜ì‘ì„± ì„ë² ë“œ [Responsive embed](docs/component_20_responsive_embed.md)
+    - ì›° [Wells](docs/component_21_wells.md)
 
 - Bootstrap Javascript  
-    - °³¿ä [](#)
-    - ÀüÈ¯ [](#)
-    - ¸ğ´Ş [modal](docs/javascript-modal.md)   
-    - µå·Ó´Ù¿î [](#)
-    - ½ºÅ©·Ñ ½ºÆÄÀÌ [](#)
-    - ÅÇ [](#)
-    - ÅøÆÁ [](#)
-    - ÆË¿À¹ö [popover](docs/javascript-popover.md)
-    - °æº¸ [alerts](docs/javascript-alert.md)
-    - ¹öÆ° [button](docs/javascript-button.md)
-    - º¸ÀÌ±â/°¡¸®±â [Collapse](docs/javascript-collapse.md)  
-    - Ä³·¯¼¿ [Carousel](docs/javascript-carousel.md)  
-    - ¸Ş´º [Affix](#)
+    - ê°œìš” [](#)
+    - ì „í™˜ [](#)
+    - ëª¨ë‹¬ [modal](docs/javascript-modal.md)   
+    - ë“œë¡­ë‹¤ìš´ [](#)
+    - ìŠ¤í¬ë¡¤ ìŠ¤íŒŒì´ [](#)
+    - íƒ­ [](#)
+    - íˆ´íŒ [](#)
+    - íŒì˜¤ë²„ [popover](docs/javascript-popover.md)
+    - ê²½ë³´ [alerts](docs/javascript-alert.md)
+    - ë²„íŠ¼ [button](docs/javascript-button.md)
+    - ë³´ì´ê¸°/ê°€ë¦¬ê¸° [Collapse](docs/javascript-collapse.md)  
+    - ìºëŸ¬ì…€ [Carousel](docs/javascript-carousel.md)  
+    - ë©”ë‰´ [Affix](#)
     
 
 
 <br>
 
-### Âü°í»çÀÌÆ®
+### ì°¸ê³ ì‚¬ì´íŠ¸
   - [http://getbootstrap.com/css/](http://getbootstrap.com/css/)    
   - [http://bootstrapk.com/css/](http://bootstrapk.com/css/)
 
@@ -82,9 +82,9 @@
 <br>
 
 
-## Bootstrap ½Ç¹«
+## Bootstrap ì‹¤ë¬´
   
-### ¸ñ·Ï
+### ëª©ë¡
 
 * [bootstrap-start](docs/bootstrap-start.md)
 * [css-container](docs/css-container.md)
@@ -98,9 +98,9 @@
 <br>
 
 
-## Bootstrap Javascript ¿¹Á¦¿ë ÄÚµå
+## Bootstrap Javascript ì˜ˆì œìš© ì½”ë“œ
 
-- ¾Æ·¡ ÄÚµå¿¡ ÀÚ¹Ù½ºÅ©¸³Æ® ¿¹Á¦ ÄÚµå¸¦ ³ÖÀ¸¸é È®ÀÎÀÌ °¡´ÉÇÕ´Ï´Ù.
+- ì•„ë˜ ì½”ë“œì— ìë°”ìŠ¤í¬ë¦½íŠ¸ ì˜ˆì œ ì½”ë“œë¥¼ ë„£ìœ¼ë©´ í™•ì¸ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.
 
 
 ```html
@@ -117,7 +117,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!-- ¿©±â ¿¹Á¦¸¦ Ãß°¡ÇÏ¼¼¿ä. -->
+        <!-- ì—¬ê¸° ì˜ˆì œë¥¼ ì¶”ê°€í•˜ì„¸ìš”. -->
 
     </body>
 </html>
