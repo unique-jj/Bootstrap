@@ -1,12 +1,11 @@
-# Ä³·¯¼¿(Carousel) 
+# ìºëŸ¬ì…€(Carousel) 
 
 `carousel.js`
 
-È¸Àü¸ñ¸¶Ã³·³ ¿ä¼ÒµéÀ» ¼øÈ¯½ÃÅ°´Â ÄŞÆ÷³ÍÆ®¿Í ÇÃ·¯±×ÀÎ ÀÔ´Ï´Ù. 
+íšŒì „ëª©ë§ˆì²˜ëŸ¼ ìš”ì†Œë“¤ì„ ìˆœí™˜ì‹œí‚¤ëŠ” ì½¤í¬ë„ŒíŠ¸ì™€ í”ŒëŸ¬ê·¸ì¸ ì…ë‹ˆë‹¤. 
 
-ÁßÃ¸µÈ carousel Àº Áö¿øµÇÁö ¾Ê½À´Ï´Ù.
+ì¤‘ì²©ëœ carousel ì€ ì§€ì›ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 
 
-[¹ø¿ª»çÀÌÆ®](http://bootstrapk.com/javascript/#carousel)
+[ë²ˆì—­ì‚¬ì´íŠ¸](http://bootstrapk.com/javascript/#carousel)
 
-[¿¹Á¦](http://codepen.io/wookchu/pen/VedPdM)
